@@ -2,14 +2,16 @@
   &-1 {
     font-size: 12px;
     font-family: "fw-medium";
-    width: 50%;
+    // width: 50%;
     letter-spacing: 0.03em;
     color: #ffffff;
     border: none;
-    padding: 14px 12px;
+    // padding: 14px 30px;
+    height: 28px;
     background: #333333;
     border-radius: 5px;
     text-transform: uppercase;
+    width: 185px !important;
     @include desk_detail4 {
       width: 50%;
     }
@@ -17,13 +19,15 @@
   &-2 {
     font-size: 16px;
     font-family: "fw-medium";
-    width: 40%;
+    // width: 40%;
     color: #ffffff;
     letter-spacing: 0.03em;
     border: none;
-    padding: 14px 30px;
+    // padding: 14px 30px;
+    height: 28px;
     background: #ff7a00;
     border-radius: 5px;
+    width: 126px !important;
     @include desk_detail4 {
       width: 43%;
     }

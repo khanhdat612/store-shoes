@@ -277,23 +277,39 @@
             <div class="container_product_details_input">
               <h2 class="container_product_details_input-text displau_none_mb">Chọn số lượng</h2>
               <div class="container_product_details_input_number">
-                <a href="">-</a><input type="number" name="" id=""><a href="">+</a>
+                <p class="inp_giam" style="cursor: pointer;">-</p>
+                <span class="inp_number"
+                            style="width: 28px;
+                            height: 28px;
+                            border: 1px solid #5b5959;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;"></span>
+                <p class="inp_tru" style="cursor: pointer;">+</p>
               </div>
             </div>
 
-            <div class="container_product_details_btn">
-              <a href="./cart.html" style="text-decoration: none;">
-                <button class="container_product_details_btn-1"  style="cursor: pointer;">THÊM VÀO GIỎ HÀNG</button>
-              </a>
-              <a href="./check.html">
-                <button class="container_product_details_btn-2 container_product_details_btn-2--none"  style="cursor: pointer;">MUA HÀNG</button>
-              </a>
+            <div class="container_product_details_btn" style="display: flex; justify-content: space-between; flex: 1;">
+              <div style="width:100%" >
+                <a href="./cart.html" style="text-decoration: none;">
+                  <button class="container_product_details_btn-1"  style="cursor: pointer;">THÊM VÀO GIỎ HÀNG</button>
+                </a>
+              </div>
+
+              <div >
+                <a href="./check.html">
+                  <button class="container_product_details_btn-2 container_product_details_btn-2--none"  style="cursor: pointer;">MUA HÀNG</button>
+                </a>
+              </div>
             </div>
           </div>  
           <div class="muahang">
             <button style="width:100%; height:32px;background: #FF7A00;
-            border-radius: 3px; border:none; font-weight: 700;
-font-size: 15px; color:#ffffff">MUA HÀNG</button>
+                            border-radius: 3px; border:none; font-weight: 700;
+                            font-size: 15px;"> 
+                            <a href="./cart.html" style=" color:#ffffff; text-decoration:none ;">MUA HÀNG</a> 
+                            <!-- MUA HÀNG -->
+              </button>
           </div>
 
           <div class="products_support display_tablet_none" style="z-index: 4;">
@@ -1080,6 +1096,7 @@ font-size: 15px; color:#ffffff">MUA HÀNG</button>
     <script src="./js/main.js"></script>
     <script src="./js/gioithieu.js"></script>
     <script src="./js/product.js"></script>
+    <script src="./js/inpQuantity.js"></script>
 
   </body>
 </html>

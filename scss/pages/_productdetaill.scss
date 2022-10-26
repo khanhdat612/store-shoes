@@ -234,6 +234,8 @@
 }
 .container_product_details_input {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   &-text {
     padding-right: 70px;
     font-size: 26px;
@@ -249,15 +251,16 @@
   &_number {
     align-items: center;
     display: flex;
+    // padding-right: 20px;
   }
-  a {
+  p {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 40px;
+    width: 28px;
     height: 28px;
-    border: 2px solid #000000;
+    border: 1px solid #5b5959;
     text-decoration: none;
     font-size: 24px;
     @include mobile {
