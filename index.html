@@ -829,7 +829,7 @@
             <li class="menu_mobile_reponsive_container--li" >
              <a href="">HOT DEAL</a> 
             </li>
-            <li class="menu_mobile_reponsive_container--li myAnchor" >
+            <li class="menu_mobile_reponsive_container--li" >
              <a class="myAnchor" href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
               
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
@@ -850,7 +850,7 @@
                   </li>
               </ul>
             </li>
-            <li class="menu_mobile_reponsive_container--li myAnchor" >
+            <li class="menu_mobile_reponsive_container--li" >
              <a class="myAnchor" href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
                 <li style="padding: 10px 0;">
@@ -929,7 +929,7 @@
       // document.getElementById("myAnchor").addEventListener("click", function(event){
       //   event.preventDefault()
       // });
-      document.getElementsByClassName("myAnchor").addEventListener("click", function(event){
+      document.querySelectorAll('.myAnchor').addEventListener("click", function(event){
         event.preventDefault()
       });
       // document.getElementById("myAnchor3").addEventListener("click", function(event){
