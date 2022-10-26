@@ -1,0 +1,574 @@
+.content_wrapper_title_width {
+  // position: fixed;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 130px;
+}
+
+.paymoney {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  @include cart_screen4 {
+    padding: 0 20px;
+  }
+  &_container {
+    @include cart_screen4 {
+      padding: 0 30px;
+    }
+    &_title {
+      h1 {
+        font-size: 25px;
+        color: #000000;
+        font-family: "fw-thin";
+      }
+    }
+    &_input_name {
+      position: relative;
+      input {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_input_email {
+      position: relative;
+      margin: 24px 0px;
+      input {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_input_phone {
+      position: relative;
+      input {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_input_check {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      input {
+        width: 16px;
+        height: 16px;
+      }
+      span {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+  &_ship {
+    @include cart_screen4 {
+      padding: 0 30px;
+    }
+    &_title {
+      h1 {
+        // margin: 0;
+        font-size: 25px;
+        color: #000000;
+        font-family: "fw-thin";
+      }
+    }
+    &_tinh {
+      position: relative;
+      margin-bottom: 22px;
+      select {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_huyen {
+      position: relative;
+      margin-bottom: 22px;
+
+      select {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_phuong {
+      position: relative;
+      margin-bottom: 22px;
+
+      select {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_location {
+      position: relative;
+      margin-bottom: 22px;
+
+      input {
+        width: 400px;
+        height: 30px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_comment {
+      position: relative;
+      textarea {
+        width: 400px;
+        @include cart_screen4 {
+          width: 100%;
+          padding: 0 20px;
+        }
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+      }
+      span {
+        position: absolute;
+        bottom: 10px;
+        left: 34%;
+      }
+    }
+  }
+  &_save {
+    @include cart_screen4 {
+      padding: 0 30px;
+    }
+    font-size: 12px;
+    color: #000000;
+    font-family: "fw-light";
+  }
+  &_company {
+    @include cart_screen4 {
+      padding: 0 30px;
+    }
+    &_checkbox {
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      input {
+        width: 16px;
+        height: 16px;
+      }
+      span {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+    }
+    &_name {
+      position: relative;
+      margin-bottom: 20px;
+      input {
+        width: 400px;
+        height: 30px;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_location {
+      position: relative;
+      margin-bottom: 20px;
+      input {
+        width: 400px;
+        height: 30px;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+    &_mst {
+      position: relative;
+      margin-bottom: 20px;
+      input {
+        width: 400px;
+        height: 30px;
+      }
+      p {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transform: translateY(-50%);
+        background-color: $white-color;
+        padding: 0 6px;
+        font-size: 12px;
+        margin: 0;
+        span {
+          color: #ff0000;
+        }
+      }
+    }
+  }
+  &_option {
+    @include cart_screen4 {
+      padding: 0 30px;
+    }
+    &_1 {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      input {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        margin-left: 8px;
+        font-size: 12px;
+      }
+    }
+    &_2 {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      input {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        margin-left: 8px;
+        font-size: 12px;
+      }
+      &_img {
+        margin-left: 30px;
+        img {
+          padding: 2px;
+          margin: 0px 20px;
+          border: 1px solid #ccc;
+        }
+      }
+    }
+    &_3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      input {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        margin-left: 8px;
+        font-size: 12px;
+      }
+    }
+    &_4 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      input {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+      }
+      span {
+        margin-left: 8px;
+        font-size: 12px;
+      }
+    }
+    &_km {
+      margin-bottom: 12px;
+      display: flex;
+      &_input {
+        position: relative;
+        input {
+          border: #ff7a00 1px solid;
+          width: 256px;
+          height: 30px;
+        }
+        p {
+          position: absolute;
+          top: 0;
+          left: 10px;
+          transform: translateY(-50%);
+          background-color: $white-color;
+          padding: 0 6px;
+          font-size: 12px;
+          margin: 0;
+          color: #ff7a00;
+        }
+      }
+      &_btn {
+        margin-left: 20px;
+        button {
+          width: 126px;
+          height: 30px;
+          font-size: 12px;
+          border: none;
+          background: #9f9d9d;
+          border-radius: 3px;
+          color: $white-color;
+        }
+      }
+    }
+    &_endow {
+      display: flex;
+      align-items: center;
+      &_number {
+        display: flex;
+        align-items: center;
+        &--ic {
+          width: 15px;
+          height: 15px;
+        }
+        span {
+          margin-left: 3px;
+          font-size: 12px;
+          a {
+            color: #ff7a00;
+          }
+        }
+      }
+      &_select {
+        margin-left: 50px;
+        span {
+          color: #ff7a00;
+          padding: 6px 33px;
+          border: 1px solid #ff7a00;
+          border-radius: 4px;
+          font-size: 12px;
+        }
+      }
+    }
+    &_check {
+      margin-top: 10px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      &--ic {
+        width: 15px;
+        height: 15px;
+      }
+      p {
+        cursor: pointer;
+        font-size: 12px;
+        margin-left: 3px;
+        color: #000000;
+      }
+    }
+  }
+  &_product {
+    @include cart_screen4 {
+      padding: 0 50px;
+    }
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    &_1 {
+      display: flex;
+      &_right {
+        margin-left: 14px;
+        text-align: right;
+      }
+      &_left {
+        p {
+          font-size: 12px;
+        }
+        &--p {
+          font-family: "fw-bold";
+        }
+      }
+      &_right {
+        p {
+          font-size: 12px;
+        }
+        &--p {
+          font-family: "fw-bold";
+          color: #ff7a00;
+        }
+      }
+    }
+    &_2 {
+      button {
+        width: 200px;
+        height: 36px;
+        background: #ff7a00;
+        border-radius: 5px;
+        border: none;
+        color: $white-color;
+        font-size: 14px;
+        margin-left: 60px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.checkProduct {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 100;
+  &_2 {
+    width: 100%;
+    // background-color: $white-color;
+  }
+}
+.blockCheck {
+  display: flex;
+}
+.icon_check {
+  cursor: pointer;
+  top: 5px;
+  right: 5px;
+  position: absolute;
+}
+.paymoneyProduct_check {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $white-color;
+}

@@ -1,0 +1,130 @@
+.cart_width {
+  max-width: 600px;
+  // padding: 0 20px;
+}
+.voucher {
+  min-width: 320px;
+  margin-top: 130px;
+  margin-left: 10px;
+  margin-right: 20px;
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    input {
+      width: 245px;
+      height: 30px;
+      border-radius: 3px;
+      border: 1px solid #000000;
+      &::placeholder {
+        text-align: center;
+      }
+    }
+    button {
+      width: 113px;
+      font-size: 13px;
+      height: 30px;
+      background: #9f9d9d;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+      color: $white-color;
+      padding: 0 12px;
+    }
+  }
+}
+.voucher_container {
+  min-width: 320px;
+  min-height: 90px;
+  background: #ffffff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);
+  border-radius: 3px;
+  margin: 0 15px;
+  margin-bottom: 30px;
+
+  &_t {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 6px;
+  }
+  &_right {
+    button {
+      width: 100px;
+      height: 90px;
+      background-color: #ff7a00;
+      color: $white-color;
+      font-size: 18px;
+      border: none;
+      border-radius: 0px 3px 3px 0px;
+    }
+  }
+  &_left {
+    position: relative;
+    margin-top: 4px;
+    width: 110px;
+    height: 70px;
+    border: solid 1px #ff7a00;
+    border-radius: 3px;
+    text-align: right;
+    &_img {
+      margin-top: 4px;
+      width: 100%;
+      height: auto;
+    }
+    &_mkm {
+      p {
+        font-size: 15px;
+        margin: 0;
+        font-family: "fw-bold";
+        margin-right: 2px;
+      }
+    }
+    &_sale {
+      position: absolute;
+      top: 4px;
+      left: -15%;
+      @include cart_screen7 {
+        left: -22%;
+      }
+      img {
+        margin-right: 2px;
+      }
+      img {
+        @include cart_screen7 {
+          width: 90%;
+        }
+      }
+    }
+  }
+  &_center {
+    text-align: center;
+    &_top {
+      span {
+        font-size: 14px;
+        font-family: "fw-bold";
+        @include cart_screen7 {
+          font-size: 12px;
+        }
+      }
+    }
+    &_bottom {
+      font-size: 12px;
+      font-family: "fw-regular";
+      @include cart_screen7 {
+        font-size: 10px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
+.voucher_container_bgr {
+  background-color: #b7b4b1 !important;
+}

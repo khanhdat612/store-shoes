@@ -1,0 +1,99 @@
+.account {
+  max-width: 1020px;
+  margin: auto;
+  margin-top: 200px;
+  &_top {
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    border-bottom: 1px solid #ccc;
+    &_name {
+      margin-left: 20px;
+      &--p1 {
+        font-size: 16px;
+        color: #000000;
+        font-family: "fw-medium";
+        margin: 0;
+      }
+      &--p2 {
+        font-size: 14px;
+        color: #000000;
+        font-family: "fw-light";
+        margin: 0;
+      }
+    }
+  }
+  &_container {
+    padding-bottom: 30px;
+    &_item {
+      display: flex;
+      align-items: center;
+      margin: 22px 0px;
+      &--ic1 {
+        font-size: 20px;
+        color: #ff7a00;
+      }
+      span {
+        margin-left: 22px;
+        margin-right: 10px;
+        font-size: 14px;
+        color: #000000;
+      }
+      &--ic2 {
+        font-size: 12px;
+      }
+    }
+  }
+}
+.account_top_img {
+  position: relative;
+}
+.edit_avtar {
+  text-align: center;
+  color: $white-color;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  ion-icon {
+    font-size: 20px;
+  }
+}
+.avatar_items {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  display: none;
+  ion-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+.avatar_items--active {
+  display: block;
+}
+.img_space {
+  padding: 8px 0px;
+}
+.avtar_btn {
+  button {
+    cursor: pointer;
+    background: #ff7a00;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: $white-color;
+    min-width: 160px;
+    height: 30px;
+  }
+}
+.avatar_items_item {
+  margin-bottom: -2px;
+}

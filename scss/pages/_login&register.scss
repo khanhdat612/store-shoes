@@ -1,0 +1,77 @@
+.content_wrapper_title--span3--padding {
+  padding-left: 8px;
+}
+.mobile_icon {
+  font-size: 18px;
+}
+.mobile_icon {
+  @include big-desk {
+    display: none;
+  }
+  @include sm-desk {
+    display: none;
+  }
+  @include tablet-mobile {
+    // display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    display: block;
+  }
+}
+.footer_login_mobile {
+  @include mobile {
+    display: none;
+  }
+  @include mini-mobile {
+    display: none;
+  }
+  @include mini2-mobile {
+    display: none;
+  }
+}
+.navigation_none {
+  @include mobile {
+    display: none;
+  }
+  @include mini-mobile {
+    display: none;
+  }
+  @include mini2-mobile {
+    display: none;
+  }
+}
+.login_right_none {
+  @include mobile {
+    display: none;
+  }
+  @include mini-mobile {
+    display: none;
+  }
+  @include mini2-mobile {
+    display: none;
+  }
+}
+.display_none_socila_mobile {
+  @include mobile {
+    display: none;
+  }
+  @include mini-mobile {
+    display: none;
+  }
+  @include mini2-mobile {
+    display: none;
+  }
+}
+.form_group {
+  @include mini3-mobile-login {
+    padding: 0 20px;
+  }
+}
+.footer_login_mobile {
+  @include tablet {
+    height: 200px;
+  }
+}

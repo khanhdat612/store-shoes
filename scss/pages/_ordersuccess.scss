@@ -1,0 +1,124 @@
+.container_order {
+  max-width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.order_container {
+  text-align: center;
+  &_title {
+    h1 {
+      font-size: 25px;
+      margin: 0;
+      margin-bottom: 12px;
+      font-family: "fw-light";
+    }
+  }
+  &_p1 {
+    margin-bottom: 15px;
+    span {
+      font-size: 12px;
+      color: #000000;
+      font-family: "fw-medium";
+    }
+  }
+  &_p2,
+  &_p3 {
+    span {
+      font-size: 12px;
+      color: #000000;
+      font-family: "fw-light";
+    }
+  }
+  &_p3 {
+    margin-bottom: 15px;
+  }
+  &_p4 {
+    border: 1px solid #000000;
+    display: inline-flex;
+    justify-content: center;
+    gap: 0 20px;
+    p {
+      margin: 0;
+      padding: 2px 6px;
+      font-size: 12px;
+      font-family: "fw-bold";
+    }
+    &_1 {
+      span {
+        font-size: 12px;
+        font-family: "fw-regular";
+      }
+    }
+    &_2 {
+      span {
+        font-size: 12px;
+        font-family: "fw-regular";
+      }
+    }
+  }
+  &_p5 {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 12px;
+    p {
+      cursor: pointer;
+      color: #ff7a00;
+      span {
+        font-family: "fw-light";
+        color: #000000;
+      }
+    }
+  }
+}
+.order_date {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 0 20px;
+  &_left {
+    text-align: left;
+  }
+  &_center {
+  }
+  &_right {
+    text-align: right;
+    font-family: "fw-medium";
+  }
+}
+.order_container_img {
+  margin-top: 20px;
+}
+.order_img {
+  position: relative;
+  text-align: center;
+  //   margin-top: 20px;
+  img {
+    width: 100%;
+  }
+  span {
+    font-family: "fw-bold";
+    position: absolute;
+    font-size: 18px;
+    color: #000000;
+    left: 32%;
+    top: 32%;
+  }
+}
+.order_btn {
+  button {
+    font-size: 14px;
+    width: 198px;
+    height: 36px;
+    background: #ff7a00;
+    color: $white-color;
+    border: none;
+    border-radius: 5px;
+    font-family: "fw-bold";
+  }
+}
+.category_products_order {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

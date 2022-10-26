@@ -1,0 +1,92 @@
+.map {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  &_title {
+    h1 {
+      font-size: 30px;
+      color: #000000;
+      font-family: "fw-medium";
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  }
+  &_btn {
+    &--margin {
+      margin: 0 8px;
+    }
+  }
+  &_address {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 40px;
+    ion-icon {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
+  &_phone {
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    ion-icon {
+      margin-right: 10px;
+      font-size: 20px;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
+  &_location {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 40px;
+    ion-icon {
+      margin-right: 10px;
+      font-size: 20px;
+      color: #ff7a00;
+    }
+    button {
+      cursor: pointer;
+      font-size: 15px;
+      padding: 2px 6px;
+      background: #d9d9d9;
+      border: 0.5px solid #ffffff;
+      box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 2px;
+    }
+  }
+  &_total {
+    display: flex;
+    justify-content: left;
+  }
+  &_map {
+    iframe {
+      width: 100%;
+    }
+  }
+}
+.map_none {
+  display: none;
+}
+.map_none.active {
+  display: block;
+}
+.btn_chinhanh {
+  font-size: 20px;
+  background: rgba(255, 122, 0, 0.5);
+  color: $white-color;
+  border: none;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+}
+.btn--active {
+  background-color: #ff7a00;
+}

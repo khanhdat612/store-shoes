@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="link logo" />
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="cart">
+      <div class="header wrapper_vote_head">
+        <div class="header_menu">
+          <img class="menu_js" src="./img/menu.svg" alt="" />
+        </div>
+        <div class="header_left">
+          <a href="./index.html">
+            <img class="header_left--img" src="./img/Group 7.svg" alt="#" />
+          </a>
+          <p class="header_left--text">Mua sắm vô cực</p>
+        </div>
+        <div class="header_center">
+          <input
+            class="header_center--input header_center--input--vote"
+            type="text"
+            placeholder="Sản phẩm tìm kiếm..."
+          />
+          <img class="header_center--img" src="./img/search.svg" alt="" />
+        </div>
+        <div class="header_right">
+          <div class="header_right_seri">
+            <img class="header_right_seri--img" src="./img/package.svg" alt="" />
+            <a href="" class="header_right_seri--text">Tra cứu đơn hàng</a>
+          </div>
+          <div class="header_right_login">
+            <div class="header_right_user_login hover--li">
+              <img class="header_right_login--imgUser hover--li" src="./img/user-check.svg" alt="" />
+              <ul class="header_menu_ul2--login width_login display_none">
+                <li class="header_menu_ul2--li1"><a href="./login.html">ĐĂNG NHẬP</a></li>
+                <li class="header_menu_ul2--li2"><a href="./register.html">ĐĂNG KÝ</a></li>
+              </ul>
+            </div>
+            <div class="header_right_cart">
+              <img class="header_right_login--imgCart" src="./img/shopping-cart.svg" alt="" />
+              <span class="header_right_cart--number">3</span>
+              <div class="header_right_cart_hover">
+                <h4 class="header_right_cart_hover--title">Sản phẩm đã thêm</h4>
+                <ul class="header_right_cart_hover_list--items">
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content_wrapper_title_none content_wrapper_title_vote">
+        <span class="content_wrapper_title--span1 content_wrapper_title--span1--vote">Trang chủ</span>
+        <span class="content_wrapper_title--span3">Thông tin giỏ hàng</span>
+      </div>
+
+      <div class="cart_name">
+        <div class="cart_name_title">
+          <h1>Giỏ hàng</h1>
+        </div>
+        <div class="cart_name_input">
+          <input type="checkbox" />
+          <h3>Tất cả</h3>
+        </div>
+      </div>
+      <div class="cart_products">
+        <div class="cart_products_input">
+          <input type="checkbox" />
+        </div>
+        <div class="cart_products_img">
+          <img src="./img/Rectangle 4 (13).png" alt="" />
+        </div>
+        <div class="cart_products_classify">
+          <div class="cart_products_classify_name">
+            <h1>Áo sơ mi nam xanh xám vằn</h1>
+          </div>
+          <div class="cart_products_classify_msp">
+            <span>MSP: 0019680</span>
+          </div>
+          <div class="cart_products_classify_input">
+            <input type="number" name="" id="" />
+          </div>
+          <div class="cart_products_classify_color">
+            <div class="cart_products_classify_color--1"></div>
+            <div class="cart_products_classify_color--name">
+              <span>Màu xám xanh - M</span>
+            </div>
+          </div>
+          <div class="cart_products_classify_price">
+            <span class="cart_products_classify_price--sale">230.000 đ</span>
+            <span class="cart_products_classify_price--money">450.000 đ</span>
+          </div>
+        </div>
+        <div class="cart_products_close">
+          <ion-icon class="cart_products_close--ic" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="cart_products">
+        <div class="cart_products_input">
+          <input type="checkbox" />
+        </div>
+        <div class="cart_products_img">
+          <img src="./img/Rectangle 4 (14).png" alt="" />
+        </div>
+        <div class="cart_products_classify">
+          <div class="cart_products_classify_name">
+            <h1>Quần dài kaki nam màu đen</h1>
+          </div>
+          <div class="cart_products_classify_msp">
+            <span>MSP: 0019680</span>
+          </div>
+          <div class="cart_products_classify_input">
+            <input type="number" name="" id="" />
+          </div>
+          <div class="cart_products_classify_color">
+            <div class="cart_products_classify_color--1"></div>
+            <div class="cart_products_classify_color--name">
+              <span>Màu xám đen - M</span>
+            </div>
+          </div>
+          <div class="cart_products_classify_price">
+            <span class="cart_products_classify_price--sale">580.000 đ</span>
+            <span class="cart_products_classify_price--money">745.000 đ</span>
+          </div>
+        </div>
+        <div class="cart_products_close">
+          <ion-icon class="cart_products_close--ic" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="cart_products_combo">
+        <div class="cart_products_combo_input">
+          <input type="checkbox" />
+        </div>
+        <div class="cart_products_combo_all">
+          <div class="cart_products_combo_all_head">
+            <div class="cart_products_combo_all_head_name">
+              <h1>Combo đặc biệt</h1>
+            </div>
+            <div class="cart_products_combo_all_haed_price">
+              <span class="cart_products_combo_all_head_price--sale">1.230.000 đ</span>
+              <span class="cart_products_combo_all_head_price--money">1.745.000 đ</span>
+            </div>
+          </div>
+          <div class="cart_products_combo_all_product_flex">
+            <div class="cart_products_combo_all_product">
+              <div class="cart_products_combo_all_product_img">
+                <img src="./img/Rectangle 79 (2).png" alt="" />
+              </div>
+              <div class="cart_products_combo_all_product_name">
+                <h2>
+                  Dây Nịt Đen<br />
+                  Khóa Tròn
+                </h2>
+              </div>
+              <div class="cart_products_combo_all_product_sale">
+                <span>410.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_money">
+                <span>615.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_sum">
+                <span>-</span>
+              </div>
+            </div>
+            <div class="cart_products_combo_all_product_calc">
+              <span>+</span>
+            </div>
+            <div class="cart_products_combo_all_product">
+              <div class="cart_products_combo_all_product_img">
+                <img src="./img/Rectangle 80 (2).png" alt="" />
+              </div>
+              <div class="cart_products_combo_all_product_name">
+                <h2>
+                  Dây Nịt Đen<br />
+                  Khóa Tròn
+                </h2>
+              </div>
+              <div class="cart_products_combo_all_product_sale">
+                <span>410.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_money">
+                <span>615.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_sum">
+                <span>+</span>
+              </div>
+            </div>
+            <div class="cart_products_combo_all_product_calc">
+              <span>+</span>
+            </div>
+            <div class="cart_products_combo_all_product">
+              <div class="cart_products_combo_all_product_img">
+                <img src="./img/Rectangle 81 (2).png" alt="" />
+              </div>
+              <div class="cart_products_combo_all_product_name">
+                <h2>
+                  Dây Nịt Đen<br />
+                  Khóa Tròn
+                </h2>
+              </div>
+              <div class="cart_products_combo_all_product_sale">
+                <span>410.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_money">
+                <span>615.000 đ</span>
+              </div>
+              <div class="cart_products_combo_all_product_sum">
+                <span>+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cart_products_close">
+          <ion-icon class="cart_products_close--ic" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="cart_products cart_products_paddingBottom">
+        <div class="cart_products_input">
+          <input type="checkbox" />
+        </div>
+        <div class="cart_products_img">
+          <img src="./img/Rectangle 4 (14).png" alt="" />
+        </div>
+        <div class="cart_products_classify">
+          <div class="cart_products_classify_name">
+            <h1>Quần dài kaki nam màu đen</h1>
+          </div>
+          <div class="cart_products_classify_msp">
+            <span>MSP: 0019680</span>
+          </div>
+          <div class="cart_products_classify_input">
+            <input type="number" name="" id="" />
+          </div>
+          <div class="cart_products_classify_color">
+            <div class="cart_products_classify_color--1"></div>
+            <div class="cart_products_classify_color--name">
+              <span>Màu xám đen - M</span>
+            </div>
+          </div>
+          <div class="cart_products_classify_price">
+            <span class="cart_products_classify_price--sale">580.000 đ</span>
+            <span class="cart_products_classify_price--money">745.000 đ</span>
+          </div>
+        </div>
+        <div class="cart_products_close">
+          <ion-icon class="cart_products_close--ic" name="close-outline"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <div class="menu_mobile_reponsive">
+      <div class="menu_mobile_reponsive_head">
+        <div class="menu_mobile_reponsive_head_logo">
+          <img src="./img/logo PP MUA SAM VO CUC-TRANG.svg" alt="" />
+        </div>
+        <div class="menu_mobile_reponsive_head_icon close_menu">
+          <ion-icon class="menu_mobile_reponsive_head_icon--ic" class="close_menu" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="menu_mobile_reponsive_container">
+        <ul class="menu_mobile_reponsive_container--ul">
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">TRANG CHỦ</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">HOT DEAL</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
+
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="">ÁO THUN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">ÁO SƠ MI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">QUẦN DÀI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">QUẦN NGẮN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">PHỤ KIỆN NAM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="">ÁO THUN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">ÁO SƠ MI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">QUẦN DÀI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">QUẦN NGẮN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">PHỤ KIỆN NAM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">CỬA HÀNG</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="">CHÍNH SÁCH MUA</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">CHÍNH SÁCH ĐỔI TRẢ</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="">CHÍNH SÁCH BẢO MẬT</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">TÀI KHOẢN CỦA TÔI</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">TRA CỨU ĐƠN HÀNG</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li0">
+            <input class="menu_mobile_reponsive_container--li0--input" type="text" />
+            <ion-icon class="menu_mobile_reponsive_container--li0--icon" name="search-outline"></ion-icon>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="to-top">
+      <a href="#"><ion-icon name="caret-up-circle-outline"></ion-icon></a>
+      <img class="to-top_img" style="cursor: pointer" src="/img/—Pngtree—messenger logo icon_3595693 1.svg" alt="" />
+      <div class="box_mess">
+        <div class="box_mess_1">
+          <img style="cursor: pointer" src="./img/Group 8.svg" alt="" />
+          <ion-icon style="cursor: pointer" class="close_mess" name="close-outline"></ion-icon>
+        </div>
+        <div class="box_mess_2">
+          <h2>Chat với chúng tôi</h2>
+          <span>Chào bạn! Bạn cần hỗ trợ gì không?</span>
+        </div>
+        <div class="box_mess_3">
+          <button style="cursor: pointer">BẮT ĐẦU CHÁT</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/scrollhead2.js"></script>
+    <script src="./js/gioithieu.js"></script>
+  </body>
+</html>

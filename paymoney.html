@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="link logo" />
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="paymoney_head">
+      <div class="header wrapper_vote_head">
+        <div class="header_menu">
+          <img class="menu_js" src="./img/menu.svg" alt="" />
+        </div>
+        <div class="header_left">
+          <a href="./index.html">
+            <img class="header_left--img" src="./img/Group 7.svg" alt="#" />
+          </a>
+          <p class="header_left--text">Mua sắm vô cực</p>
+        </div>
+        <div class="header_center">
+          <input
+            class="header_center--input header_center--input--vote"
+            type="text"
+            placeholder="Sản phẩm tìm kiếm..."
+          />
+          <img class="header_center--img" src="./img/search.svg" alt="" />
+        </div>
+        <div class="header_right">
+          <div class="header_right_seri">
+            <img class="header_right_seri--img" src="./img/package.svg" alt="" />
+            <a href="/donhang.html" class="header_right_seri--text">Tra cứu đơn hàng</a>
+          </div>
+          <div class="header_right_login">
+            <div class="header_right_user_login hover--li">
+              <img class="header_right_login--imgUser hover--li" src="./img/user-check.svg" alt="" />
+              <ul class="header_menu_ul2--login width_login display_none">
+                <li class="header_menu_ul2--li1"><a href="./login.html">ĐĂNG NHẬP</a></li>
+                <li class="header_menu_ul2--li2"><a href="./register.html">ĐĂNG KÝ</a></li>
+              </ul>
+            </div>
+            <div class="header_right_cart">
+              <img class="header_right_login--imgCart" src="./img/shopping-cart.svg" alt="" />
+              <span class="header_right_cart--number">3</span>
+              <div class="header_right_cart_hover">
+                <h4 class="header_right_cart_hover--title">Sản phẩm đã thêm</h4>
+                <ul class="header_right_cart_hover_list--items">
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="header_right_cart_hover_list--item">
+                    <img class="header_right_cart_hover_list--img" src="./img/hình ảnh sản phẩm (1).png" alt="" />
+                    <div class="header_right_cart_hover--all">
+                      <div class="header_right_cart_hover_info">
+                        <a href="./productdetaill.html" target="_blank">
+                          <h5>Áo sơ mi ngắn tay họa tiết</h5>
+                        </a>
+                        <div class="header_right_cart_hover_info_item">
+                          <span class="header_right_cart_hover_info_item--price">230.000VNĐ</span>
+                          <span class="header_right_cart_hover_info_item--multiply">x</span>
+                          <span class="header_right_cart_hover_info_item--quantity">2</span>
+                        </div>
+                      </div>
+                      <div class="header_right_cart_hover_info_color">
+                        <span class="header_right_cart_hover_info_color--item">Màu: Hồng cánh sen</span>
+                        <a href="">
+                          <span class="header_right_cart_hover_info_color--remove">xóa</span>
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content_wrapper_title_none content_wrapper_title_vote content_wrapper_title_width">
+        <span class="content_wrapper_title--span1 content_wrapper_title--span1--vote">Trang chủ</span>
+        <span class="content_wrapper_title--span2">Thanh toán</span>
+        <span class="content_wrapper_title--span3">Thông tin thanh toán</span>
+      </div>
+    </div>
+
+    <div class="paymoney">
+      <div>
+        <div class="paymoney_container">
+          <div class="paymoney_container_title">
+            <h1>Thông tin liên hệ</h1>
+          </div>
+          <div class="paymoney_container_input_name">
+            <input type="text" />
+            <p>
+              Tên người nhận
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_container_input_email">
+            <input type="text" />
+            <p>
+              Email
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_container_input_phone">
+            <input type="number" name="" id="" />
+            <p>
+              Điện thoại liên hệ
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_container_input_check">
+            <input type="checkbox" name="" id="" />
+            <span>Đăng kí nhận thông tin khuyến mãi</span>
+          </div>
+        </div>
+        <div class="paymoney_ship">
+          <div class="paymoney_ship_title">
+            <h1>Thông tin giao hàng</h1>
+          </div>
+          <div class="paymoney_ship_tinh">
+            <select>
+              <option value="Hồ Chí Mình"></option>
+              <option value="Hà Nội">Hà Nội</option>
+              <option value="Đà Nẵng">Đà Nẵng</option>
+            </select>
+            <p>
+              Chọn thành phố
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_ship_huyen">
+            <select name="" id="">
+              <option value="Quận 1"></option>
+              <option value="Quận 2">Quận 2</option>
+              <option value="Quận 3">Quận 3</option>
+            </select>
+            <p>
+              Chọn quận/huyện
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_ship_phuong">
+            <select name="" id="">
+              <option value="Bình Trị Đông"></option>
+              <option value="Bình Trị Đông A">Bình Trị Đông A</option>
+              <option value="Bình Trị Đông B">Bình Trị Đông B</option>
+            </select>
+            <p>
+              Chọn phường/xã
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_ship_location">
+            <input type="text" />
+            <p>
+              Địa chỉ nhận hàng
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_ship_comment">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <p>Ghi chú</p>
+            <!-- <span>0/900 từ</span> -->
+          </div>
+          <div class="paymoney_save">
+            <span>Thông tin đơn hàng của bạn sẽ được lưu vào đăng kí toàn khoản nhanh</span>
+          </div>
+        </div>
+        <div class="paymoney_company">
+          <div class="paymoney_company_checkbox">
+            <input type="checkbox" name="" id="" />
+            <span>Xuất hóa đơn công ty</span>
+          </div>
+          <div class="paymoney_company_title">
+            <h1>Thông tin xuất hóa đơn</h1>
+          </div>
+          <div class="paymoney_company_name">
+            <input type="text" />
+            <p>
+              Tên công ty
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_company_location">
+            <input type="text" />
+            <p>
+              Địa chỉ công ty
+              <span>*</span>
+            </p>
+          </div>
+          <div class="paymoney_company_mst">
+            <input type="text" />
+            <p>
+              Mã số thuế
+              <span>*</span>
+            </p>
+          </div>
+        </div>
+        <div class="paymoney_option">
+          <div class="paymoney_option_1">
+            <input type="radio" name="" id="" />
+            <span>Thanh toán trực tiếp khi nhận hàng</span>
+          </div>
+          <div class="paymoney_option_2_all">
+            <div class="paymoney_option_2">
+              <input type="radio" />
+              <span>Thanh toán bằng ví điện tử</span>
+            </div>
+            <div class="paymoney_option_2_img">
+              <img src="./img/MASTER.svg" alt="" />
+              <img src="./img/MOMO.svg" alt="" />
+            </div>
+          </div>
+          <div class="paymoney_option_3">
+            <input type="radio" name="" id="" />
+            <span>Thanh toán bằng thẻ nội địa</span>
+          </div>
+          <div class="paymoney_option_4">
+            <input type="radio" />
+            <span>Thanh toán bằng thẻ visa/mastercard</span>
+          </div>
+          <div class="paymoney_option_km">
+            <div class="paymoney_option_km_input">
+              <input type="text" />
+              <p>Mã khuyến mãi</p>
+            </div>
+            <div class="paymoney_option_km_btn">
+              <button>Áp dụng</button>
+            </div>
+          </div>
+          <div class="paymoney_option_endow">
+            <div class="paymoney_option_endow_number">
+              <ion-icon class="paymoney_option_endow_number--ic" name="bag-handle-outline"></ion-icon>
+              <span
+                >Bạn có
+                <a href="#">9 ưu đãi siêu hấp dẫn</a>
+                đang chờ sử dụng.
+              </span>
+            </div>
+            <div class="paymoney_option_endow_select">
+              <a style="text-decoration: none" href="./listvoucher.html">
+                <span>+</span>
+              </a>
+            </div>
+          </div>
+          <div class="paymoney_option_check">
+            <ion-icon class="paymoney_option_check--ic" name="bag-check-outline"></ion-icon>
+            <p id="myCheckbox">Kiểm tra đơn hàng bạn ơi</p>
+          </div>
+        </div>
+        <!-- -----------------------kiểm tra đơn hàng bạn ơi         -->
+        <div class="paymoney_product">
+          <div class="paymoney_product_1">
+            <div class="paymoney_product_1_left">
+              <p>Tạm tính</p>
+              <p>Phí vận chuyển</p>
+              <p>Giảm giá KM</p>
+              <p class="paymoney_product_1_left--p">Tổng phụ</p>
+            </div>
+            <div class="paymoney_product_1_right">
+              <p>810.000 đ</p>
+              <p>35.000 đ</p>
+              <p>-35.000 đ</p>
+              <p class="paymoney_product_1_right--p">810.000 đ</p>
+            </div>
+          </div>
+          <div class="paymoney_product_2">
+            <a href="./check.html">
+              <button>TIẾN HÀNH THANH TOÁN</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="checkProduct">
+      <div class="checkProduct_2">
+        <div class="paymoneyProduct_check">
+          <div class="cart_products cart_products_check">
+            <div class="cart_products_img">
+              <img src="./img/Rectangle 4 (14).png" alt="" />
+            </div>
+            <div class="cart_products_classify">
+              <div class="cart_products_classify_name">
+                <h1>Quần dài kaki nam màu đen</h1>
+              </div>
+              <div class="cart_products_classify_msp">
+                <span>MSP: 0019680</span>
+              </div>
+              <div class="cart_products_classify_color">
+                <div class="cart_products_classify_color--1"></div>
+                <div class="cart_products_classify_color--name quantity_flex">
+                  <span>Màu xám xanh - M</span>
+                  <div class="quantity">Số lượng:1</div>
+                </div>
+              </div>
+              <div class="cart_products_classify_price">
+                <span class="cart_products_classify_price--sale">580.000 đ</span>
+                <span class="cart_products_classify_price--money">745.000 đ</span>
+              </div>
+            </div>
+          </div>
+          <div class="cart_products cart_products_check">
+            <div class="cart_products_img">
+              <img src="./img/Rectangle 4 (14).png" alt="" />
+            </div>
+            <div class="cart_products_classify">
+              <div class="cart_products_classify_name">
+                <h1>Quần dài kaki nam màu đen</h1>
+              </div>
+              <div class="cart_products_classify_msp">
+                <span>MSP: 0019680</span>
+              </div>
+              <div class="cart_products_classify_color">
+                <div class="cart_products_classify_color--1"></div>
+                <div class="cart_products_classify_color--name quantity_flex">
+                  <span>Màu xám xanh - M</span>
+                  <div class="quantity">Số lượng:1</div>
+                </div>
+              </div>
+              <div class="cart_products_classify_price">
+                <span class="cart_products_classify_price--sale">580.000 đ</span>
+                <span class="cart_products_classify_price--money">745.000 đ</span>
+              </div>
+            </div>
+          </div>
+          <div class="paymoney_product paymoney_product_flex">
+            <div class="paymoney_product_1">
+              <div class="paymoney_product_1_left">
+                <p>Tạm tính</p>
+                <p>Phí vận chuyển</p>
+                <p>Giảm giá KM</p>
+                <p class="paymoney_product_1_left--p">Tổng phụ</p>
+              </div>
+              <div class="paymoney_product_1_right">
+                <p>810.000 đ</p>
+                <p>35.000 đ</p>
+                <p>-35.000 đ</p>
+                <p class="paymoney_product_1_right--p">810.000 đ</p>
+              </div>
+            </div>
+            <div class="paymoney_product_2">
+              <a href="./ordersuccess.html">
+                <button>THANH TOÁN</button>
+              </a>
+            </div>
+          </div>
+          <div class="icon_check close_showBlock">
+            <ion-icon class="close_showBlock" style="font-size: 20px" name="close-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu_mobile_reponsive">
+      <div class="menu_mobile_reponsive_head">
+        <div class="menu_mobile_reponsive_head_logo">
+          <img src="./img/logo PP MUA SAM VO CUC-TRANG.svg" alt="" />
+        </div>
+        <div class="menu_mobile_reponsive_head_icon close_menu">
+          <ion-icon class="menu_mobile_reponsive_head_icon--ic" class="close_menu" name="close-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="menu_mobile_reponsive_container">
+        <ul class="menu_mobile_reponsive_container--ul">
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="/index.html">TRANG CHỦ</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">HOT DEAL</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
+
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="/category.html">ÁO THUN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category.html">ÁO SƠ MI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category.html">QUẦN DÀI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category.html">QUẦN NGẮN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category.html">PHỤ KIỆN NAM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="/category2.html">ÁO THUN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category2.html">ÁO SƠ MI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category2.html">QUẦN DÀI NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category2.html">QUẦN NGẮN NAM</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/category2.html">PHỤ KIỆN NAM</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="">CỬA HÀNG</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="/wellcome.html">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
+              <li style="padding: 10px 0">
+                <a href="/chinhsachmua.html">CHÍNH SÁCH MUA</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/chinhsachdoi.html">CHÍNH SÁCH ĐỔI TRẢ</a>
+              </li>
+              <li style="padding: 10px 0">
+                <a href="/chinhsachbao.html">CHÍNH SÁCH BẢO MẬT</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="/taikhoancuatoi.html">TÀI KHOẢN CỦA TÔI</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li">
+            <a href="/check.html">TRA CỨU ĐƠN HÀNG</a>
+          </li>
+          <li class="menu_mobile_reponsive_container--li0">
+            <input class="menu_mobile_reponsive_container--li0--input" type="text" />
+            <ion-icon class="menu_mobile_reponsive_container--li0--icon" name="search-outline"></ion-icon>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="to-top">
+      <a href="#"><ion-icon name="caret-up-circle-outline"></ion-icon></a>
+      <img class="to-top_img" style="cursor: pointer" src="/img/—Pngtree—messenger logo icon_3595693 1.svg" alt="" />
+      <div class="box_mess">
+        <div class="box_mess_1">
+          <img style="cursor: pointer" src="./img/Group 8.svg" alt="" />
+          <ion-icon style="cursor: pointer" class="close_mess" name="close-outline"></ion-icon>
+        </div>
+        <div class="box_mess_2">
+          <h2>Chat với chúng tôi</h2>
+          <span>Chào bạn! Bạn cần hỗ trợ gì không?</span>
+        </div>
+        <div class="box_mess_3">
+          <button style="cursor: pointer">BẮT ĐẦU CHÁT</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <script src="./js/paymoney.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/scrollhead2.js"></script>
+    <script src="./js/gioithieu.js"></script>
+  </body>
+</html>

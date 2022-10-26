@@ -1,0 +1,223 @@
+.wellcome {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  &_all {
+  }
+  &_img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  &_contact {
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(111, 109, 109);
+    margin-top: 60px;
+    margin-bottom: 20px;
+    p {
+      margin: 0;
+    }
+  }
+  &_policy {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(111, 109, 109);
+    p {
+      margin: 0;
+    }
+  }
+}
+.wellcome_contact_click {
+  display: none;
+  text-align: center;
+
+  &_contact {
+    h4 {
+      font-size: 18px;
+      text-align: center;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 6px;
+    }
+    p {
+      font-size: 12px;
+      text-align: center;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  &_phanhoi {
+    text-align: center;
+    button {
+      font-size: 12px;
+      color: #000000;
+      border: 1px solid #000000;
+      background-color: #ffffff;
+      padding: 6px 10px;
+    }
+  }
+  &_oclock {
+    ion-icon {
+      font-size: 30px;
+      margin-top: 16px;
+    }
+    h4 {
+      margin: 0;
+      font-size: 14px;
+      margin-top: 16px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 12px;
+      color: #000000;
+      margin: 0;
+      margin-bottom: 18px;
+    }
+  }
+  &_mail {
+    ion-icon {
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    a {
+      font-size: 12px;
+      font-family: "fw-medium";
+      color: #000000;
+    }
+    p {
+      font-size: 12px;
+      margin: 0;
+      margin-top: 10px;
+    }
+  }
+  &_phone {
+    ion-icon {
+      margin-top: 20px;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+    h4 {
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 14px;
+    }
+    p {
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    a {
+      font-size: 12px;
+      font-family: "fw-medium";
+      color: #000000;
+    }
+  }
+  &_home {
+    ion-icon {
+      margin-top: 22px;
+      font-size: 20px;
+      margin-bottom: 17px;
+    }
+    h4 {
+      font-size: 16px;
+      margin: 0;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 12px;
+      margin: 0;
+      a {
+        color: #000000;
+      }
+    }
+  }
+}
+.wellcome_contact_2 {
+  padding: 0 10px;
+}
+.wellcome_contact_click_on {
+  display: block;
+  cursor: pointer;
+}
+.wellcome_p {
+  color: #ff7a00;
+}
+.wellcome_bottom {
+  border: none;
+}
+
+.wellcome_policy_click {
+  display: none;
+  &_all {
+    ul {
+      padding-top: 5px;
+      a {
+        color: #000000;
+        text-decoration: none;
+      }
+      li {
+        cursor: pointer;
+        font-size: 18px;
+        margin: 15px 0px;
+      }
+    }
+  }
+}
+.wellcome_policy_2 {
+  padding: 0 10px;
+}
+.wellcome_policy_click--on {
+  display: block;
+}
+.wellcome_policy--color {
+  color: #ff7a00;
+}
+.wellcome--icon--deg,
+.wellcome--icon2--deg {
+  animation: wellcomeIcon 1s both;
+}
+@keyframes wellcomeIcon {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: -180deg;
+  }
+}
+.click_wall {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: none;
+}
+.click_wall--active {
+  display: block;
+}
+.well_flex {
+  display: flex;
+  justify-content: center;
+}
+.click_account_brg2 {
+  background: linear-gradient(180deg, rgb(255 255 255) 0%, rgb(237 133 38 / 100%) 100%);
+  padding: 25px 8px;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin-top: 180px;
+}

@@ -1,0 +1,77 @@
+.cart_products_check {
+  padding: 0 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 0 40px;
+  @include cart_screen5 {
+    gap: 0 10px;
+  }
+}
+.cart_products_classify_msp {
+  @include cart_screen5 {
+    margin: 0;
+  }
+}
+.quantity {
+  font-size: 12px;
+  margin-left: 30px;
+  &_flex {
+    display: flex;
+  }
+}
+.paymoney_product_flex {
+  justify-content: center;
+  @include cart_screen {
+    padding: 0px 20px;
+  }
+}
+.paymoney_product_2 button {
+  @include cart_screen4 {
+    margin-left: 25px;
+    width: 170px;
+  }
+}
+.paymoney_product_2 button {
+  @include cart_screen5 {
+    margin-left: 15px;
+    width: 130px !important;
+  }
+}
+.paymoney_product {
+  @include mini3-mobile-login {
+    padding: 0 20px;
+  }
+}
+.check_ship,
+.check_company {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  align-items: center;
+  span {
+    font-size: 15px;
+  }
+}
+.check_ship_address {
+  margin-bottom: 16px;
+}
+.check_com {
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+}
+.check_company {
+  padding: 43px 20px;
+  // margin-top: 20px;
+}
+.check_ship_name,
+.check_company_name {
+  margin-top: 14px;
+}
+.check_ship_title,
+.check_company_title {
+  h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+}

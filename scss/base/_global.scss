@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  font-family: "fw-regular";
+  font-size: 62.5%;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  position: relative;
+  // margin-top: 200px;
+  @include mobile {
+    margin-top: 130px;
+  }
+}
+
+// tablet - mobile
+@media (max-width: 1023px) {
+  .hide-on-mobile-tablet {
+    display: none !important;
+  }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none !important;
+  }
+}
+/* Mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+.responsive_icon {
+  @include big-desk {
+    display: flex;
+  }
+  @include sm-desk {
+    display: flex;
+  }
+  @include mobile {
+    display: none;
+  }
+}
+.responsive_price {
+  @include big-desk {
+    display: block;
+  }
+  @include sm-desk {
+    display: block;
+  }
+  @include tablet {
+    display: block;
+  }
+  @include mobile {
+    display: flex;
+  }
+}
+.responsive_display_icon {
+  @include big-desk {
+    display: none;
+  }
+  @include sm-desk {
+    // display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+  @include mobile {
+    display: block;
+    right: 0;
+    position: absolute;
+    margin-right: 4px;
+  }
+}
+
+.category_products_new_price--saleOff {
+  @include mobile {
+    display: none;
+  }
+}
+.responsive_display_icon img {
+  @include mobile {
+    width: 25px;
+    height: 19px;
+  }
+}

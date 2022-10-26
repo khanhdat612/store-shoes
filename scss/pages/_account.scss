@@ -1,0 +1,88 @@
+.block_img {
+  max-width: 380px;
+  margin: 0 auto;
+  height: 130px;
+  background: #ff7a00;
+  position: relative;
+  &_ic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $white-color;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ion-icon {
+      font-size: 25px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+}
+.click_account {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  display: none;
+  &_center {
+    display: flex;
+    justify-content: center;
+  }
+  &_brg {
+    padding: 15px 6px;
+    background-color: $white-color;
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+  }
+}
+.click_account--active {
+  display: block;
+}
+.click_account_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+  }
+  ion-icon {
+    margin-top: -56px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-right: -10px;
+    font-size: 25px;
+    color: #000000;
+  }
+  &_update {
+    text-align: right;
+    button {
+      width: 133px;
+      height: 30px;
+      color: $white-color;
+      font-size: 16px;
+      border: none;
+      background: #ff7a00;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

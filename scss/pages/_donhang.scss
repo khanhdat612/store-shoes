@@ -1,0 +1,208 @@
+.account_top_all {
+  border-bottom: 1px solid #ccc;
+}
+.account_top {
+  border-bottom: none;
+}
+.account_detail {
+  margin: 20px 0;
+  margin-left: -20px;
+  display: flex;
+  justify-content: space-between;
+  @include mini2-mobile {
+    margin-left: 0;
+    justify-content: space-between;
+  }
+  &_items {
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ff7a00;
+    @include mini2-mobile {
+      width: 70px;
+      height: 70px;
+      margin: 0 0px;
+    }
+    p {
+      margin: 0;
+    }
+    &_item {
+      &--p1 {
+        font-size: 14px;
+        color: $white-color;
+        font-family: "fw-bold";
+      }
+      &--p2 {
+        font-size: 10px;
+        color: $white-color;
+      }
+    }
+  }
+}
+.donhang {
+  &_top {
+    p {
+      font-size: 16px;
+      margin: 20px 0;
+    }
+  }
+  &_status {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    &_item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // border-bottom: 2px solid #ccc;
+      margin-bottom: 4px;
+      p {
+        margin: 0;
+      }
+    }
+  }
+  &_container {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    &_seri {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 6px;
+      @include mini3-mobile-login {
+        font-size: 10px;
+      }
+      h3 {
+        font-family: "fw-thin";
+        margin: 0;
+        span {
+          font-family: "fw-bold";
+        }
+      }
+      p {
+        margin: 0;
+        font-family: "fw-bold";
+
+        color: #ff7a00;
+      }
+    }
+    &_date {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-bottom: 6px;
+      @include mini3-mobile-login {
+        font-size: 10px;
+      }
+      h3 {
+        font-family: "fw-thin";
+        margin: 0;
+        span {
+          font-family: "fw-bold";
+        }
+      }
+      p {
+        margin: 0;
+        font-family: "fw-bold";
+      }
+    }
+    &_detail {
+      display: flex;
+      justify-content: space-between;
+
+      &_img {
+        display: flex;
+      }
+      &_name {
+        font-size: 14px;
+        margin-left: 16px;
+        font-family: "fw-medium";
+        @include mini3-mobile-login {
+          font-size: 12px;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+      &_price {
+        text-align: right;
+        font-size: 16px;
+        @include mini3-mobile-login {
+          font-size: 12px;
+        }
+        p {
+          margin: 0;
+        }
+        &--money {
+          color: #ff7a00;
+        }
+      }
+    }
+    &_btn {
+      margin-top: 20px;
+      text-align: center;
+      button {
+        width: 135px;
+        height: 30px;
+        font-size: 16px;
+        border: none;
+        background: #ff7a00;
+        border-radius: 5px;
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.baner_donhang_container_1_none {
+  display: none;
+}
+
+.baner_donhang_container_2,
+.baner_donhang_container_3,
+.baner_donhang_container_4 {
+  display: none;
+}
+.baner_donhang_container_block {
+  display: block;
+}
+.bannerDonhang {
+  animation: banner_donhang 0.8s linear;
+}
+@keyframes banner_donhang {
+  from {
+    opacity: 0.3;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.banner_donhang {
+  display: none;
+  transition: all 0.2s linear;
+}
+.banner_donhang.active {
+  display: block;
+  animation: banner_donhang 0.5s linear;
+}
+
+.donhang_status_item.bannerDonhang--p {
+  font-family: "fw-bold" !important;
+  border-bottom: 2px solid #ccc !important;
+}
+.bannerDonhang--p {
+  font-family: "fw-bold" !important;
+  border-bottom: 2px solid #ccc !important;
+}

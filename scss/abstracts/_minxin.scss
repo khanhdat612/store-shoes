@@ -1,0 +1,214 @@
+// breakpoint
+@mixin big-desk {
+  @media (min-width: 1421px) {
+    @content;
+  }
+}
+@mixin sm-desk {
+  @media (max-width: 1420px) {
+    @content;
+  }
+}
+@mixin tablet-mobile {
+  @media (min-width: 1023px) {
+    @content;
+  }
+}
+@mixin tablet2-mobile2 {
+  @media (max-width: 1023px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: 769px) and (max-width: 1023px) {
+    @content;
+  }
+}
+@mixin tablet2 {
+  @media (min-width: 769px) and (max-width: 835px) {
+    @content;
+  }
+}
+@mixin tablet2-1 {
+  @media (min-width: 769px) and (max-width: 869px) {
+    @content;
+  }
+}
+@mixin tablet2-2 {
+  @media (min-width: 769px) and (max-width: 780px) {
+    @content;
+  }
+}
+
+@mixin tablet2-3 {
+  @media (min-width: 869px) and (max-width: 1022px) {
+    @content;
+  }
+}
+
+@mixin tablet3 {
+  @media (min-width: 1196px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile-list {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin mini-mobile {
+  @media (min-width: 446px) and (max-width: 552px) {
+    @content;
+  }
+}
+@mixin mini-mobile2 {
+  @media (min-width: 550px) and (max-width: 584px) {
+    @content;
+  }
+}
+@mixin mini-mobile3 {
+  @media (min-width: 551px) and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mini2-mobile {
+  @media (max-width: 446px) {
+    @content;
+  }
+}
+@mixin mini3-mobile-login {
+  @media (max-width: 400px) {
+    @content;
+  }
+}
+@mixin bigSmall {
+  @media (min-width: 1022px) and (max-width: 1363px) {
+    @content;
+  }
+}
+
+@mixin mini3-mobile-hover {
+  @media (min-width: 475px) and (max-width: 769px) {
+    @content;
+  }
+}
+@mixin mobile2 {
+  @media (min-width: 765px) and (max-width: 875px) {
+    @content;
+  }
+}
+@mixin check {
+  @media (min-width: 765px) and (max-width: 875px) {
+    @content;
+  }
+}
+@mixin mini4-mobile-hover {
+  @media (max-width: 477px) {
+    @content;
+  }
+}
+@mixin mini-mobile-icon {
+  @media (max-width: 473px) {
+    @content;
+  }
+}
+@mixin mini-mobile-text {
+  @media (max-width: 551px) {
+    @content;
+  }
+}
+@mixin big-desk-hover {
+  @media (min-width: 1155px) {
+    @content;
+  }
+}
+@mixin desk_detail {
+  @media (max-width: 1250px) {
+    @content;
+  }
+}
+@mixin desk_detail2 {
+  @media (max-width: 1150px) {
+    @content;
+  }
+}
+@mixin desk_detail3 {
+  @media (min-width: 1151px) {
+    @content;
+  }
+}
+@mixin desk_detail4 {
+  @media (min-width: 1024px) and (max-width: 1560px) {
+    @content;
+  }
+}
+@mixin desk_detail5 {
+  @media (min-width: 1024px) and (max-width: 1300px) {
+    @content;
+  }
+}
+@mixin desk_detail5-1 {
+  @media (min-width: 1023px) and (max-width: 1104px) {
+    @content;
+  }
+}
+@mixin desk_detail6 {
+  @media (min-width: 1105px) and (max-width: 1195px) {
+    @content;
+  }
+}
+@mixin desk_detail7 {
+  @media (min-width: 1195px) {
+    @content;
+  }
+}
+@mixin cart_screen {
+  @media (max-width: 720px) {
+    @content;
+  }
+}
+@mixin cart_screen2 {
+  @media (min-width: 720px) and (max-width: 820px) {
+    @content;
+  }
+}
+@mixin cart_screen3 {
+  @media (min-width: 821px) and (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin cart_screen4 {
+  @media (max-width: 450px) {
+    @content;
+  }
+}
+@mixin cart_screen5 {
+  @media (max-width: 340px) {
+    @content;
+  }
+}
+@mixin cart_screen7 {
+  @media (max-width: 470px) {
+    @content;
+  }
+}
+@mixin cart_screen6 {
+  @media (max-width: 370px) {
+    @content;
+  }
+}
+@mixin cart_screen8 {
+  @media (max-width: 430px) {
+    @content;
+  }
+}
+@mixin desk_detail8 {
+  @media (min-width: 1105px) and (max-width: 1194px) {
+    @content;
+  }
+}

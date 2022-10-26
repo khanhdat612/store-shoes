@@ -1,0 +1,60 @@
+.category_products_new_price_1 .category_products_new_price:hover .category_products_new_price_hover {
+  display: block;
+  bottom: 60px;
+  height: 48px;
+  // transform: translateY(17px);
+  opacity: 1;
+  transition: all 0.8s ease;
+  @include mini2-mobile {
+    bottom: 80px;
+    height: 35px;
+  }
+  @include tablet {
+    display: block;
+    bottom: 110px;
+    height: 48px;
+    opacity: 1;
+    // transition: all 0.8s ease;
+  }
+}
+.category_products_new_price_2 .category_products_new_price:hover .category_products_new_price_hover {
+  display: block;
+  bottom: 94px;
+  height: 48px;
+  opacity: 1;
+  transition: all 0.8s ease;
+}
+.form_email--btn {
+  width: 115px;
+  height: 46px;
+  left: 965px;
+  top: 2561px;
+  background: #ff7a00;
+  border-radius: 11px;
+  border: none;
+  color: $white-color;
+  margin-top: 10px;
+  @include mobile {
+    margin: 0;
+    margin-top: 10px;
+  }
+  @include tablet {
+    height: 35px;
+    margin-left: 0;
+  }
+}
+.responsive_display_icon {
+  @include mini-mobile {
+    display: block !important;
+  }
+}
+.category_products_new_price--sale {
+  @include mini2-mobile {
+    font-size: 14px !important;
+  }
+}
+.slick-dots {
+  @include mini2-mobile {
+    top: 70% !important;
+  }
+}

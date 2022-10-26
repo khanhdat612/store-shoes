@@ -1,0 +1,17 @@
+.btn_login {
+  a {
+    margin-bottom: 10px;
+  }
+}
+.verify {
+  text-align: center;
+  input {
+    margin: 0 4px;
+  }
+}
+.verify_input::before {
+  content: "Read this -";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
