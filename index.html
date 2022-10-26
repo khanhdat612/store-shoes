@@ -121,7 +121,7 @@
             <ul class="header_bottom--list hover--li">
               <li class="header_bottom--list--item1"><a class="header_bottom--list--item1" href="">TRANG CHỦ</a></li>
               <li class="header_menu_li hover--li">
-                <a class="header_menu_li--a" id="myAnchor" href=""
+                <a class="header_menu_li--a myAnchor"  href=""
                   >HOTDEAL
                   <ion-icon class="hover--li" style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon>
                 </a>
@@ -132,7 +132,7 @@
                 </ul>
               </li>
               <li class="hover--li">
-                <a id="myAnchor2" href="">NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+                <a class="myAnchor" href="">NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
                 <ul class="header_menu_ul2 display_none width_nav">
                   <li class="header_menu_ul2--li1"><a href="./category.html">ÁO THUN NAM</a></li>
                   <li class="header_menu_ul2--li2"><a href="./category.html">ÁO SƠ MI NAM</a></li>
@@ -142,7 +142,7 @@
                 </ul>
               </li>
               <li class="hover--li">
-                <a id="myAnchor3" href="">NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+                <a class="myAnchor" href="">NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
                 <ul class="header_menu_ul2 display_none width_nav">
                   <li class="header_menu_ul2--li1"><a href="./category2.html">ÁO THUN NỮ</a></li>
                   <li class="header_menu_ul2--li2"><a href="./category2.html">ÁO SƠ MI NỮ</a></li>
@@ -154,7 +154,7 @@
               </li>
               <li><a href="./map.html">CỬA HÀNG</a></li>
               <li class="hover--li">
-                <a id="myAnchor4" href="">HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+                <a class="myAnchor" href="">HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
                 <ul class="header_menu_ul2 display_none">
                   <li class="header_menu_ul2--li1"><a href="./chinhsachmua.html">CHÍNH SÁCH MUA HÀNG</a></li>
                   <li class="header_menu_ul2--li2"><a href="./chinhsachdoi.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
@@ -830,7 +830,7 @@
              <a href="">HOT DEAL</a> 
             </li>
             <li class="menu_mobile_reponsive_container--li" >
-             <a href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
+             <a class="myAnchor" href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
               
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
                   <li style="padding: 10px 0;">
@@ -851,7 +851,7 @@
               </ul>
             </li>
             <li class="menu_mobile_reponsive_container--li" >
-             <a href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
+             <a class="myAnchor" href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
                 <li style="padding: 10px 0;">
                 <a href="./category2.html">ÁO THUN NAM</a> 
@@ -874,7 +874,7 @@
               <a href="./map.html">CỬA HÀNG</a>
             </li>
             <li class="menu_mobile_reponsive_container--li" >
-            <a href="./wellcome.html">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <a class="myAnchor" href="./wellcome.html">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></a>
             <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
               <li style="padding: 10px 0;">
               <a href="./chinhsachmua.html">CHÍNH SÁCH MUA</a> 
@@ -926,18 +926,18 @@
     <script src="./js/scrollhead.js"></script>
     <script src="./js/gioithieu.js"></script>
     <script>
-      document.getElementById("myAnchor").addEventListener("click", function(event){
+      // document.getElementById("myAnchor").addEventListener("click", function(event){
+      //   event.preventDefault()
+      // });
+      document.getElementsByClassName("myAnchor").addEventListener("click", function(event){
         event.preventDefault()
       });
-      document.getElementById("myAnchor2").addEventListener("click", function(event){
-        event.preventDefault()
-      });
-      document.getElementById("myAnchor3").addEventListener("click", function(event){
-        event.preventDefault()
-      });
-      document.getElementById("myAnchor4").addEventListener("click", function(event){
-        event.preventDefault()
-      });
+      // document.getElementById("myAnchor3").addEventListener("click", function(event){
+      //   event.preventDefault()
+      // });
+      // document.getElementById("myAnchor4").addEventListener("click", function(event){
+      //   event.preventDefault()
+      // });
       </script>
   </body>
 </html>
