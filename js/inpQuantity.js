@@ -1,13 +1,26 @@
-const numberInpt = document.querySelector('.inp_number')
-const numberGiam = document.querySelector('.inp_giam')
-const numberTang = document.querySelector('.inp_tru')
+const numberInpts = document.querySelectorAll('.inp_number')
+const numberGiams = document.querySelectorAll('.inp_giam')
+const numberTangs = document.querySelectorAll('.inp_tru')
 
-let a=1;
-numberTang.addEventListener('click', () => {
-    a++;
-    numberInpt.innerHTML = a;
-});
-numberGiam.addEventListener('click', () => {
-    a--;
-    numberInpt.innerHTML = a;
-});
+for (let index = 0; index < numberGiams.length; index++) {
+
+    let a = 1;
+    numberGiams[index].addEventListener('click', () => {
+        a--;
+        numberInpts[index].innerHTML = a;
+    });
+};
+
+for (let index = 0; index < numberTangs.length; index++) {
+
+    let a = 0;
+    numberTangs[index].addEventListener('click', () => {
+        a++;
+        numberInpts[index].innerHTML = a;
+    });
+}
+
+// numberTang.addEventListener('click', () => {
+//     a++;
+//     numberInpt.innerHTML = a;
+// });

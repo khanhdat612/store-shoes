@@ -5018,6 +5018,23 @@ body {
   font-size: 14px;
 }
 
+.container_product_details_input_number p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #5b5959;
+  text-decoration: none;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .container_product_details_input_number p {
+    width: 30px;
+  }
+}
+
 .content_wrapper_title_width {
   max-width: 1024px;
   margin: 0 auto;
