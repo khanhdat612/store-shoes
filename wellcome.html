@@ -23,10 +23,10 @@
             </a>
             <p class="header_left--text">Mua sắm vô cực</p>
           </div>
-          <div class="header_center">
+          <form class="header_center">
             <input class="header_center--input" type="text" placeholder="Sản phẩm tìm kiếm..." />
             <img class="header_center--img" src="./img/search.svg" alt="" />
-          </div>
+          </form>
           <div class="header_right">
             <div class="header_right_seri">
               <img class="header_right_seri--img" src="./img/package.svg" alt="" />
@@ -117,22 +117,22 @@
         </div>
         <div class="header_bottom">
           <ul class="header_bottom--list hover--li">
-            <li class="header_bottom--list--item1">
-              <a class="header_bottom--list--item1" href="./index.html">TRANG CHỦ</a>
-            </li>
+            <li class="header_bottom--list--item1"><a class="header_bottom--list--item1" href="">TRANG CHỦ</a></li>
             <li class="header_menu_li hover--li">
-              <a class="header_menu_li--a" href=""
+              <a class="header_menu_li--a myAnchor" style="cursor: pointer"
                 >HOTDEAL
                 <ion-icon class="hover--li" style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon>
               </a>
               <ul class="header_menu_ul2 display_none">
-                <li class="header_menu_ul2--li1"><a href="./index.html">SẢN PHẨM KHUYẾN MÃI</a></li>
-                <li class="header_menu_ul2--li2"><a href="./index.html">SẢN PHẨM MỚI</a></li>
-                <li class="header_menu_ul2--li3"><a href="./index.html">SẢN PHẨM BÁN CHẠY</a></li>
+                <li class="header_menu_ul2--li1"><a href="./category.html">SẢN PHẨM KHUYẾN MÃI</a></li>
+                <li class="header_menu_ul2--li2"><a href="./category.html">SẢN PHẨM MỚI</a></li>
+                <li class="header_menu_ul2--li3"><a href="./category.html">SẢN PHẨM BÁN CHẠY</a></li>
               </ul>
             </li>
             <li class="hover--li">
-              <a href="">NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a class="myAnchor" style="cursor: pointer"
+                >NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
+              ></a>
               <ul class="header_menu_ul2 display_none width_nav">
                 <li class="header_menu_ul2--li1"><a href="./category.html">ÁO THUN NAM</a></li>
                 <li class="header_menu_ul2--li2"><a href="./category.html">ÁO SƠ MI NAM</a></li>
@@ -142,7 +142,9 @@
               </ul>
             </li>
             <li class="hover--li">
-              <a href="">NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a class="myAnchor" style="cursor: pointer"
+                >NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
+              ></a>
               <ul class="header_menu_ul2 display_none width_nav">
                 <li class="header_menu_ul2--li1"><a href="./category2.html">ÁO THUN NỮ</a></li>
                 <li class="header_menu_ul2--li2"><a href="./category2.html">ÁO SƠ MI NỮ</a></li>
@@ -152,9 +154,13 @@
                 <li class="header_menu_ul2--li3"><a href="./category2.html">PHỤ KIỆN NỮ</a></li>
               </ul>
             </li>
-            <li><a href="./map.html">CỬA HÀNG</a></li>
+            <li>
+              <a href="./map.html"> CỬA HÀNG</a>
+            </li>
             <li class="hover--li">
-              <a href="">HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a style="cursor: pointer"
+                >HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
+              ></a>
               <ul class="header_menu_ul2 display_none">
                 <li class="header_menu_ul2--li1"><a href="./chinhsachmua.html">CHÍNH SÁCH MUA HÀNG</a></li>
                 <li class="header_menu_ul2--li2"><a href="./chinhsachdoi.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
@@ -392,7 +398,7 @@
             <a href="">HOT DEAL</a>
           </li>
           <li class="menu_mobile_reponsive_container--li">
-            <a href="">NAM <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <p class="myAnchor" style="margin: 0px">NAM <ion-icon name="chevron-down-outline"></ion-icon></p>
 
             <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
               <li style="padding: 10px 0">
@@ -413,7 +419,7 @@
             </ul>
           </li>
           <li class="menu_mobile_reponsive_container--li">
-            <a href="">NỮ <ion-icon name="chevron-down-outline"></ion-icon></a>
+            <p class="myAnchor" style="margin: 0px">NỮ <ion-icon name="chevron-down-outline"></ion-icon></p>
             <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
               <li style="padding: 10px 0">
                 <a href="./category2.html">ÁO THUN NAM</a>
@@ -435,8 +441,8 @@
           <li class="menu_mobile_reponsive_container--li">
             <a href="./map.html">CỬA HÀNG</a>
           </li>
-          <li class="menu_mobile_reponsive_container--li">
-            <a href="./wellcome.html">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></a>
+          <li class="menu_mobile_reponsive_container--li myAnchor">
+            <p class="myAnchor" style="margin: 0px">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></p>
             <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none">
               <li style="padding: 10px 0">
                 <a href="./chinhsachmua.html">CHÍNH SÁCH MUA</a>

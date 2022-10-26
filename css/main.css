@@ -1185,7 +1185,7 @@ body {
   position: fixed;
   z-index: 10;
   width: 100%;
-  height: 174px;
+  height: auto;
   top: 0;
   box-shadow: 0px 2px 10px 3px rgba(155, 155, 155, 0.537254902);
   background-color: #ffffff;
@@ -1349,7 +1349,6 @@ body {
   display: flex;
   justify-content: center;
   font-size: 16px;
-  padding: 0;
   list-style: none;
   gap: 0 64px;
 }
@@ -1379,7 +1378,6 @@ body {
 }
 
 .header_menu_ul2 {
-  margin-top: 10px;
   font-size: 12px;
   text-align: center;
   list-style: none;
@@ -1398,7 +1396,7 @@ body {
 
 .header_bottom {
   width: 100%;
-  height: 56x;
+  height: 35px;
   background-color: #ffffff;
 }
 
@@ -1420,7 +1418,7 @@ body {
 }
 
 .banner {
-  margin-top: 174px;
+  margin-top: 165px;
 }
 @media (max-width: 768px) {
   .banner {
@@ -1436,7 +1434,6 @@ body {
   content: "";
   background-color: transparent;
   width: 100%;
-  height: 50px;
   left: 0;
   display: block;
   position: absolute;
@@ -1472,7 +1469,6 @@ body {
 
 .header_bottom--list {
   margin: 0;
-  padding: 10px 0px;
 }
 
 .header_bottom--list li:hover .display_none {
@@ -1718,7 +1714,7 @@ body {
   right: -6px;
   top: 45px;
   z-index: 1;
-  min-width: 400px;
+  min-width: 320px;
   display: none;
 }
 .header_right_cart_hover ::before {
@@ -1766,7 +1762,7 @@ body {
   color: #272727;
 }
 .header_right_cart_hover_info_item--price {
-  font-size: 14px;
+  font-size: 12px;
   color: coral;
 }
 .header_right_cart_hover_info_item--multiply {
@@ -1776,7 +1772,7 @@ body {
   font-size: 12px;
 }
 .header_right_cart_hover_info h5 {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
 }
 .header_right_cart_hover_info_color {
