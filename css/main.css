@@ -5154,6 +5154,7 @@ body {
   padding: 0 6px;
   font-size: 12px;
   margin: 0;
+  border-radius: 8px;
 }
 .paymoney_ship_tinh p span {
   color: #ff0000;
@@ -6788,7 +6789,7 @@ body {
 .donhang_container_btn button {
   width: 135px;
   height: 30px;
-  font-size: 16px;
+  font-size: 13px;
   border: none;
   background: #ff7a00;
   border-radius: 5px;
