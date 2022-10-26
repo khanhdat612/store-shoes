@@ -146,6 +146,7 @@
   }
   @include mobile {
     display: flex;
+    align-items: center;
     justify-content: space-between;
   }
 }
@@ -188,12 +189,12 @@
 .container_product_details_flex {
   @include tablet {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 30px 0;
   }
   @include mobile {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 30px 0;
   }
 }
@@ -219,11 +220,14 @@
 .container_product_details_btn-1 {
   @include tablet {
     width: 100%;
-    margin-left: 20px;
+    // margin-left: 20px;
   }
   @include mobile {
     width: 100%;
-    margin-left: 20px;
+    height: 28px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
   }
 }
 .products_support {
@@ -275,14 +279,14 @@
 }
 .product_combo_container {
   @include tablet {
-    display: flex;
-    justify-content: space-around;
+    // display: flex;
+    justify-content: space-between;
   }
   @include mobile {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 0 8px;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    // gap: 0 8px;
   }
   @include tablet-mobile {
     display: none;
@@ -295,6 +299,7 @@
   @include mobile {
     text-align: center;
     margin-top: 20px;
+    margin-right: 20px;
   }
 }
 .product_combo_name {
@@ -384,4 +389,37 @@
   @include mobile {
     margin-bottom: 0;
   }
+}
+.product_combo_container.slick-initialized.slick-slider.slick-dotted {
+  button {
+    display: none !important;
+  }
+}
+.product_combo_container .slick-list.draggable {
+  padding: 0 !important ;
+}
+.product_combo_1 {
+  img {
+    // width: 100%;
+  }
+}
+.product_combo_container .product_combo_1 {
+  // margin: 0 30px !important;
+}
+.product_combo_container .product_combo_1.slick-slide.slick-active {
+  width: auto !important;
+}
+.product_combo_container .product_combo_1.slick-slide.slick-current.slick-active {
+  width: auto !important;
+}
+.product_combo_container .product_combo_1.slick-slide {
+  width: auto !important;
+}
+.product_combo_container .slick-track {
+  width: 100% !important;
+  display: flex;
+  justify-content: space-around;
+}
+.product_combo_container .slick-list.draggable {
+  // margin-left: -175px;
 }

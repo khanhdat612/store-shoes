@@ -1,6 +1,6 @@
 .container_product_details_btn {
   &-1 {
-    font-size: 16px;
+    font-size: 12px;
     font-family: "fw-medium";
     width: 50%;
     letter-spacing: 0.03em;
@@ -43,31 +43,43 @@
   display: flex;
   justify-content: space-around;
   position: relative;
-  gap: 0 99px;
+  gap: 0 35px;
   // left: 0;
   &--btn1 {
     cursor: pointer;
-    color: $white-color;
+    width: 35%;
+    height: 50px;
+    color: #ffffff;
     font-family: "fw-bold";
-    padding: 20px 20px;
     background: #333333;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   &--btn2 {
     cursor: pointer;
+    width: 35%;
+    height: 50px;
+    color: #333333;
     font-family: "fw-bold";
-    padding: 20px 20px;
-    background: #ffffff;
-    border: 1px solid #c1c1c1;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
   }
   &--btn3 {
     cursor: pointer;
+    width: 35%;
+    height: 50px;
+    color: #333333;
     font-family: "fw-bold";
-    padding: 20px 20px;
-    background: #ffffff;
-    border: 1px solid #c1c1c1;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
   }
 }
 .container_product_comments_btn {
@@ -106,23 +118,27 @@
 }
 .products_support_btn-1 {
   width: 300px;
-  font-size: 16px;
+  font-size: 12px;
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 4px;
-  padding: 12px 14px;
+  padding: 6px 14px;
   @include mobile {
     width: 200px;
   }
   @include mini2-mobile {
     width: 150px;
+  }
+  @include cart_screen5 {
+    width: 130px;
+    font-size: 10px;
   }
 }
 
 .products_support_btn-2 {
   width: 300px;
-  font-size: 16px;
-  padding: 12px 14px;
+  font-size: 12px;
+  padding: 6px 14px;
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 4px;
@@ -131,6 +147,10 @@
   }
   @include mini2-mobile {
     width: 150px;
+  }
+  @include cart_screen5 {
+    width: 130px;
+    font-size: 10px;
   }
   @include desk_detail4 {
     font-size: 12px;
@@ -149,4 +169,14 @@
 }
 .container_input_content_btn:hover {
   opacity: 0.7;
+}
+.container_product_details_size--sp {
+  @include mobile {
+    font-size: 14px;
+  }
+}
+.muahang {
+  @include mobile-list {
+    display: none;
+  }
 }
