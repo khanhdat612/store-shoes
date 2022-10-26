@@ -5182,6 +5182,7 @@ body {
   padding: 0 6px;
   font-size: 12px;
   margin: 0;
+  border-radius: 8px;
 }
 .paymoney_ship_huyen p span {
   color: #ff0000;
@@ -5209,6 +5210,7 @@ body {
   padding: 0 6px;
   font-size: 12px;
   margin: 0;
+  border-radius: 8px;
 }
 .paymoney_ship_phuong p span {
   color: #ff0000;
