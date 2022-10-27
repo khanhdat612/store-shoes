@@ -1,0 +1,5 @@
+.content_wrapper_title {
+  @include tablet2-mobile2 {
+    padding-bottom: 12px !important;
+  }
+}

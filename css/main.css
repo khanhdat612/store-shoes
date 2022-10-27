@@ -7084,4 +7084,10 @@ body {
   color: #8a8a8a;
 }
 
+@media (max-width: 1023px) {
+  .content_wrapper_title {
+    padding-bottom: 12px !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

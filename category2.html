@@ -125,9 +125,9 @@
                 <ion-icon class="hover--li" style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon>
               </a>
               <ul class="header_menu_ul2 display_none">
-                <li class="header_menu_ul2--li1"><a href="./category.html">SẢN PHẨM KHUYẾN MÃI</a></li>
-                <li class="header_menu_ul2--li2"><a href="./category.html">SẢN PHẨM MỚI</a></li>
-                <li class="header_menu_ul2--li3"><a href="./category.html">SẢN PHẨM BÁN CHẠY</a></li>
+                <li class="header_menu_ul2--li1"><a href="./sanphamkm.html">SẢN PHẨM KHUYẾN MÃI</a></li>
+                <li class="header_menu_ul2--li2"><a href="./sanphammoi.html">SẢN PHẨM MỚI</a></li>
+                <li class="header_menu_ul2--li3"><a href="./sanphambanchay.html">SẢN PHẨM BÁN CHẠY</a></li>
               </ul>
             </li>
             <li class="hover--li">
@@ -214,13 +214,13 @@
             </select>
           </div>
           <div class="menu_mobile_responsive2">
-            <button class="menu_mobile_responsive2-btn1 menu_mobile_responsive2-btn1-active">Áo thun nam</button>
-            <button class="menu_mobile_responsive2-btn2">Quần short nữ</button>
-            <button>Phụ kiện nữ</button>
+            <button class="menu_mobile_responsive2-btn1 menu_mobile_responsive2-btn1-active category_click category_click_active">Áo thun nữ</button>
+            <button class="menu_mobile_responsive2-btn2 category_click">Quần short nữ</button>
+            <button class="category_click">Phụ kiện nữ</button>
           </div>
           <div class="menu_mobile_responsive3">
-            <button class="menu_mobile_responsive2-btn1">Áo sơ mi nam</button>
-            <button>Quần dài nữ</button>
+            <button class="menu_mobile_responsive2-btn1 category_click">Áo sơ mi nữ</button>
+            <button class="category_click">Quần dài nữ</button>
           </div>
         </div>
 
@@ -348,7 +348,7 @@
           </div>
           <div class="category_products_new_price category_products_new_price_mobile category_products_new_price_margin">
               <a href="./productdetaill.html">
-                <img class="category_products_new_price--img" src="./img/Rectangle 4 (3).png" alt="" />
+                <img class="category_products_new_price--img" src="./img/Rectangle 4.png" alt="" />
               </a>
               <img class="category_products_new_price--new" src="./img/new.svg" alt="" />
               <img class="category_products_new_price--saleOff" src="./img/30.svg" alt="" />
@@ -388,7 +388,7 @@
           </div>
           <div class="category_products_new_price category_products_new_price_mobile category_products_new_price_margin">
               <a href="./productdetaill.html">
-                <img class="category_products_new_price--img" src="./img/Rectangle 4 (3).png" alt="" />
+                <img class="category_products_new_price--img" src="./img/Rectangle 4 (1).png" alt="" />
               </a>
               <img class="category_products_new_price--new" src="./img/new.svg" alt="" />
               <img class="category_products_new_price--saleOff" src="./img/30.svg" alt="" />
@@ -428,7 +428,7 @@
           </div>
           <div class="category_products_new_price category_products_new_price_mobile category_products_new_price_margin">
               <a href="./productdetaill.html">
-                <img class="category_products_new_price--img" src="./img/Rectangle 4 (3).png" alt="" />
+                <img class="category_products_new_price--img" src="./img/Rectangle 4 (2).png" alt="" />
               </a>
               <img class="category_products_new_price--new" src="./img/new.svg" alt="" />
               <img class="category_products_new_price--saleOff" src="./img/30.svg" alt="" />
@@ -712,12 +712,27 @@
             <li class="menu_mobile_reponsive_container--li" >
              <a href="./index.html">TRANG CHỦ</a> 
             </li>
-            <li class="menu_mobile_reponsive_container--li" >
+            <!-- <li class="menu_mobile_reponsive_container--li" >
              <a href="">HOT DEAL</a> 
-            </li>
+            </li> -->
             <li class="menu_mobile_reponsive_container--li" >
-             <p class="myAnchor" style="margin:0px;">NAM <ion-icon name="chevron-down-outline"></ion-icon></p>
-              
+              <p class="myAnchor" style="margin:0px; cursor: pointer;">HOT DEAL<ion-icon name="chevron-down-outline"></ion-icon></p>
+               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
+                   <li style="padding: 10px 0;">
+                   <a href="./sanphamkm.html">SẢN PHẨM KHUYẾN MÃI</a> 
+                   </li>
+                   <li style="padding: 10px 0;">
+                   <a href="./sanphambanchay.html">SẢN PHẨM BÁN CHẠY</a> 
+                   </li>
+                   <li style="padding: 10px 0;">
+                   <a href="./sanphammoi.html">SẢN PHẨM MỚI</a> 
+                   </li>
+                   
+               </ul>
+             </li>
+
+            <li class="menu_mobile_reponsive_container--li" >
+             <p class="myAnchor" style="margin:0px; cursor: pointer;">NAM <ion-icon name="chevron-down-outline"></ion-icon></p>
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
                   <li style="padding: 10px 0;">
                   <a href="./category.html">ÁO THUN NAM</a> 
@@ -737,22 +752,22 @@
               </ul>
             </li>
             <li class="menu_mobile_reponsive_container--li" >
-             <p class="myAnchor" style="margin:0px;">NỮ <ion-icon name="chevron-down-outline"></ion-icon></p>
+             <p class="myAnchor" style="margin:0px; cursor: pointer;">NỮ <ion-icon name="chevron-down-outline"></ion-icon></p>
               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">ÁO THUN NAM</a> 
+                <a href="./category2.html">ÁO THUN NỮ</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">ÁO SƠ MI NAM</a> 
+                <a href="./category2.html">ÁO SƠ MI NỮ</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">QUẦN DÀI NAM</a> 
+                <a href="./category2.html">QUẦN DÀI NỮ</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="/category2.html">QUẦN NGẮN NAM</a> 
+                <a href="/category2.html">QUẦN NGẮN NỮ</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">PHỤ KIỆN NAM</a> 
+                <a href="./category2.html">PHỤ KIỆN NỮ</a> 
                 </li>
               </ul>
             </li>
@@ -811,6 +826,7 @@
     <script src="./js/main.js"></script>
     <script src="./js/scrollhead.js"></script>
     <script src="./js/gioithieu.js"></script>
+    <script src="./js/category.js"></script>
 
   </body>
 </html>
