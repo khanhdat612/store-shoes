@@ -209,17 +209,17 @@
 
   &_list--img {
     width: 17%;
-    padding: 10px;
+    padding: 6px;
   }
   &--all {
     width: 100%;
-    line-height: 26px;
+    // line-height: 26px;
   }
   &_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 12px;
+    margin-right: 6px;
     a {
       text-decoration: none;
       color: $black-color;
@@ -229,7 +229,7 @@
       color: coral;
     }
     &_item--multiply {
-      padding: 0 5px;
+      // padding: 0 5px;
     }
     &_item--quantity {
       font-size: 12px;

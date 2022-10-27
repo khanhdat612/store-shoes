@@ -1745,17 +1745,16 @@ body {
 }
 .header_right_cart_hover_list--img {
   width: 17%;
-  padding: 10px;
+  padding: 6px;
 }
 .header_right_cart_hover--all {
   width: 100%;
-  line-height: 26px;
 }
 .header_right_cart_hover_info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 12px;
+  margin-right: 6px;
 }
 .header_right_cart_hover_info a {
   text-decoration: none;
@@ -1764,9 +1763,6 @@ body {
 .header_right_cart_hover_info_item--price {
   font-size: 12px;
   color: coral;
-}
-.header_right_cart_hover_info_item--multiply {
-  padding: 0 5px;
 }
 .header_right_cart_hover_info_item--quantity {
   font-size: 12px;
