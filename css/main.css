@@ -1714,7 +1714,7 @@ body {
   right: -6px;
   top: 45px;
   z-index: 1;
-  min-width: 350px;
+  width: 320px;
   display: none;
 }
 .header_right_cart_hover ::before {
