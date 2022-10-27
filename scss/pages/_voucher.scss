@@ -5,8 +5,7 @@
 .voucher {
   min-width: 320px;
   margin-top: 130px;
-  margin-left: 10px;
-  margin-right: 20px;
+
   h1 {
     text-align: center;
     text-transform: uppercase;
@@ -14,10 +13,12 @@
   }
   &_btn {
     display: flex;
+    min-width: 300px;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin: 15px;
     input {
-      width: 245px;
+      // width: 245px;
       height: 30px;
       border-radius: 3px;
       border: 1px solid #000000;
@@ -35,11 +36,12 @@
       cursor: pointer;
       color: $white-color;
       padding: 0 12px;
+      margin-left: 10px;
     }
   }
 }
 .voucher_container {
-  min-width: 320px;
+  min-width: 300px;
   min-height: 90px;
   background: #ffffff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.18);

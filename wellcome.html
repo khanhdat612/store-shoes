@@ -117,7 +117,9 @@
         </div>
         <div class="header_bottom">
           <ul class="header_bottom--list hover--li">
-            <li class="header_bottom--list--item1"><a class="header_bottom--list--item1" href="">TRANG CHỦ</a></li>
+            <li class="header_bottom--list--item1">
+              <a class="header_bottom--list--item1" href="./index.html">TRANG CHỦ</a>
+            </li>
             <li class="header_menu_li hover--li">
               <a class="header_menu_li--a myAnchor" style="cursor: pointer"
                 >HOTDEAL
@@ -519,5 +521,10 @@
     <script src="./js/gioithieu.js"></script>
     <script src="./js/wellcomes.js"></script>
     <script src="./js/wellcome.js"></script>
+    <script>
+      document.querySelectorAll(".myAnchor").addEventListener("click", function (event) {
+        event.preventDefault();
+      });
+    </script>
   </body>
 </html>

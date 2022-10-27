@@ -131,7 +131,7 @@
                 <li class="header_menu_ul2--li3"><a href="./sanphambanchay.html">SẢN PHẨM BÁN CHẠY</a></li>
               </ul>
             </li>
-            <li class="hover--li">
+            <li class="header_menu_li hover--li">
               <a class="myAnchor" style="cursor: pointer"
                 >NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
               ></a>
@@ -143,7 +143,7 @@
                 <li class="header_menu_ul2--li3"><a href="./category.html">PHỤ KIỆN NAM</a></li>
               </ul>
             </li>
-            <li class="hover--li">
+            <li class="header_menu_li hover--li">
               <a class="myAnchor" style="cursor: pointer"
                 >NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
               ></a>
@@ -159,7 +159,7 @@
             <li>
               <a href="./map.html"> CỬA HÀNG</a>
             </li>
-            <li class="hover--li">
+            <li class="header_menu_li hover--li">
               <a style="cursor: pointer"
                 >HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon
               ></a>
@@ -502,5 +502,10 @@
     <script src="./js/scrollhead.js"></script>
     <script src="./js/gioithieu.js"></script>
     <script src="./js/map.js"></script>
+    <script>
+      document.querySelectorAll(".myAnchor").addEventListener("click", function (event) {
+        event.preventDefault();
+      });
+    </script>
   </body>
 </html>

@@ -213,13 +213,13 @@
   }
   &--all {
     width: 100%;
-    // line-height: 26px;
+    line-height: 26px;
   }
   &_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 6px;
+    margin-right: 12px;
     a {
       text-decoration: none;
       color: $black-color;
