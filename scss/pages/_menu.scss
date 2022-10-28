@@ -87,6 +87,9 @@
 .menu_mobile_reponsive_container--li_2 {
   display: none;
 }
-.menu_mobile_reponsive_container--ul li:hover .menu_mobile_reponsive_container--li_2 {
+// .menu_mobile_reponsive_container--ul li:hover .menu_mobile_reponsive_container--li_2 {
+//   display: block;
+// }
+.active_menu_mobile_reponsive {
   display: block;
 }

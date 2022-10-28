@@ -1964,6 +1964,11 @@ body {
 }
 .menu_category_title_select--close--span {
   color: red;
+  font-size: 16px;
+}
+
+.noActive {
+  display: none;
 }
 
 @media (min-width: 446px) and (max-width: 552px) {
@@ -4456,7 +4461,7 @@ body {
   display: none;
 }
 
-.menu_mobile_reponsive_container--ul li:hover .menu_mobile_reponsive_container--li_2 {
+.active_menu_mobile_reponsive {
   display: block;
 }
 

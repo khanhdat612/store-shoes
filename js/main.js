@@ -23,7 +23,9 @@ clickMenu.addEventListener('click', showMenu)
 function hideMenu(){
   form_menu.classList.remove('menu_mobile');
 }
-clickClose.addEventListener('click', hideMenu)
+clickClose.addEventListener('click', hideMenu);
+
+
 
 
 

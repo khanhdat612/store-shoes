@@ -13,6 +13,7 @@ function remove(){
 }
 openbox.addEventListener('click', remove);
 
+
 closebox.addEventListener('click', function(event){
 event.stopPropagation();
 });

@@ -131,7 +131,7 @@
               </ul>
             </li>
             <li class="hover--li">
-              <a class="myAnchor" style="cursor: pointer;">NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a class="myAnchor" style="cursor: pointer; padding: 10px 0px">NAM<ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
               <ul class="header_menu_ul2 display_none width_nav">
                 <li class="header_menu_ul2--li1"><a href="./category.html">ÁO THUN NAM</a></li>
                 <li class="header_menu_ul2--li2"><a href="./category.html">ÁO SƠ MI NAM</a></li>
@@ -141,7 +141,7 @@
               </ul>
             </li>
             <li class="hover--li">
-              <a class="myAnchor" style="cursor: pointer;">NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a class="myAnchor" style="cursor: pointer; padding: 10px 0px">NỮ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
               <ul class="header_menu_ul2 display_none width_nav">
                 <li class="header_menu_ul2--li1"><a href="./category2.html">ÁO THUN NỮ</a></li>
                 <li class="header_menu_ul2--li2"><a href="./category2.html">ÁO SƠ MI NỮ</a></li>
@@ -155,7 +155,7 @@
                 <a href="./map.html"> CỬA HÀNG</a>
             </li>
             <li class="hover--li">
-              <a style="cursor: pointer;">HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
+              <a style="cursor: pointer; padding: 10px 0px">HỖ TRỢ <ion-icon style="transform: translateY(2px)" name="chevron-down-outline"></ion-icon></a>
               <ul class="header_menu_ul2 display_none">
                 <li class="header_menu_ul2--li1"><a href="./chinhsachmua.html">CHÍNH SÁCH MUA HÀNG</a></li>
                 <li class="header_menu_ul2--li2"><a href="./chinhsachdoi.html">CHÍNH SÁCH ĐỔI TRẢ</a></li>
@@ -179,21 +179,21 @@
         <div class="menu_category">
           <div class="menu_category_left">
             <span class="menu_category_title">DANH MỤC SẢN PHẨM</span>
-            <div class="menu_category_title_select">
-              <input type="radio" name="" id="" />
+            <div class="menu_category_title_select" id="elements" onchange="showValue()">
+              <input type="radio" name="category" value="Tất cả" id="checkedActive"  checked="checked" > 
               <span class="menu_category_title_select--span1">Tất cả</span>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="category" value="Áo thun" id="nocheck" > 
               <span class="menu_category_title_select--span2">Áo thun</span>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="category" value="Áo sơ mi" id="nocheck" > 
               <span class="menu_category_title_select--span3">Áo sơ mi</span>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="category" value="Quần short" id="nocheck" >
               <span class="menu_category_title_select--span4">Quần short</span>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="category" value="Quần dài" id="nocheck" > 
               <span class="menu_category_title_select--span5">Quần dài</span>
-              <input type="radio" name="" id="" />
+              <input type="radio" name="category" value="Phụ kiện" id="nocheck" > 
               <span class="menu_category_title_select--span6">Phụ kiện</span>
-              <ion-icon class="menu_category_title_select--close" name="close-outline"></ion-icon>
-              <span class="menu_category_title_select--close--span">Bỏ chọn</span>
+            </div>
+            <div id="result" class="menu_category_title_select--close--span click_result" style="cursor: pointer;">
             </div>
           </div>
           <div class="menu_category_right">
@@ -712,12 +712,9 @@
             <li class="menu_mobile_reponsive_container--li" >
              <a href="./index.html">TRANG CHỦ</a> 
             </li>
-            <!-- <li class="menu_mobile_reponsive_container--li" >
-             <a href="">HOT DEAL</a> 
-            </li> -->
-            <li class="menu_mobile_reponsive_container--li" >
-              <p class="myAnchor" style="margin:0px; cursor: pointer;">HOT DEAL<ion-icon name="chevron-down-outline"></ion-icon></p>
-               <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
+            <li class="menu_mobile_reponsive_container--li click_items_menu1" >
+              <p class="myAncho" style="margin:0px; cursor: pointer;">HOT DEAL<ion-icon name="chevron-down-outline"></ion-icon></p>
+               <ul class="menu_mobile_reponsive_container--li_2 menu_mobile1" style="font-size: 16px; list-style: none;">
                    <li style="padding: 10px 0;">
                    <a href="./sanphamkm.html">SẢN PHẨM KHUYẾN MÃI</a> 
                    </li>
@@ -727,13 +724,12 @@
                    <li style="padding: 10px 0;">
                    <a href="./sanphammoi.html">SẢN PHẨM MỚI</a> 
                    </li>
-                   
                </ul>
              </li>
 
-            <li class="menu_mobile_reponsive_container--li" >
-             <p class="myAnchor" style="margin:0px; cursor: pointer;">NAM <ion-icon name="chevron-down-outline"></ion-icon></p>
-              <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
+            <li class="menu_mobile_reponsive_container--li click_items_menu2">
+             <p class="myAncho" style="margin:0px; cursor: pointer;">NAM <ion-icon name="chevron-down-outline"></ion-icon></p>
+              <ul class="menu_mobile_reponsive_container--li_2 menu_mobile2" style="font-size: 16px; list-style: none;">
                   <li style="padding: 10px 0;">
                   <a href="./category.html">ÁO THUN NAM</a> 
                   </li>
@@ -751,32 +747,32 @@
                   </li>
               </ul>
             </li>
-            <li class="menu_mobile_reponsive_container--li" >
-             <p class="myAnchor" style="margin:0px; cursor: pointer;">NỮ <ion-icon name="chevron-down-outline"></ion-icon></p>
-              <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
+            <li class="menu_mobile_reponsive_container--li click_items_menu3" >
+             <p class="myAncho" style="margin:0px; cursor: pointer;">NỮ <ion-icon name="chevron-down-outline"></ion-icon></p>
+              <ul class="menu_mobile_reponsive_container--li_2 menu_mobile3" style="font-size: 16px; list-style: none;">
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">ÁO THUN NỮ</a> 
+                <a href="./category2.html">ÁO THUN NAM</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">ÁO SƠ MI NỮ</a> 
+                <a href="./category2.html">ÁO SƠ MI NAM</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">QUẦN DÀI NỮ</a> 
+                <a href="./category2.html">QUẦN DÀI NAM</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="/category2.html">QUẦN NGẮN NỮ</a> 
+                <a href="/category2.html">QUẦN NGẮN NAM</a> 
                 </li>
                 <li style="padding: 10px 0;">
-                <a href="./category2.html">PHỤ KIỆN NỮ</a> 
+                <a href="./category2.html">PHỤ KIỆN NAM</a> 
                 </li>
               </ul>
             </li>
             <li class="menu_mobile_reponsive_container--li" >
               <a href="./map.html">CỬA HÀNG</a>
             </li>
-            <li class="menu_mobile_reponsive_container--li myAnchor" >
-            <p  class="myAnchor" style="margin:0px;">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></p>
-            <ul class="menu_mobile_reponsive_container--li_2" style="font-size: 16px; list-style: none;">
+            <li class="menu_mobile_reponsive_container--li myAncho click_items_menu4" >
+            <p  class="myAncho" style="margin:0px; cursor: pointer;">HỖ TRỢ <ion-icon name="chevron-down-outline"></ion-icon></p>
+            <ul class="menu_mobile_reponsive_container--li_2 menu_mobile4" style="font-size: 16px; list-style: none;">
               <li style="padding: 10px 0;">
               <a href="./chinhsachmua.html">CHÍNH SÁCH MUA</a> 
               </li>
@@ -827,6 +823,7 @@
     <script src="./js/scrollhead.js"></script>
     <script src="./js/gioithieu.js"></script>
     <script src="./js/category.js"></script>
+    <script src="./js/menuMobile.js"></script>
     <script>
       document.querySelectorAll('.myAnchor').addEventListener("click", function(event){
         event.preventDefault()

@@ -52,10 +52,14 @@
         height: 20px;
         &--span {
           color: red;
+          font-size: 16px;
         }
       }
     }
   }
+}
+.noActive {
+  display: none;
 }
 .category_products_new_price_1 {
   // padding-bottom: 86px;
