@@ -11,12 +11,12 @@ const radioButtons = document.querySelectorAll('input[name="category"]');
     for (const radioButton of radioButtons) {
         radioButton.addEventListener('change', showSelected);
     }
+    function showSelected(events) {
+            if (this.checked) {
+                document.querySelector('#result').innerText = `X Bỏ chọn`;
+            }
+    }            
 
-function showSelected(e) {
-        if (this.checked) {
-            document.querySelector('#result').innerText = `X Bỏ chọn`;
-        }
-}            
 /// Click bỏ chọn
 const clickX = document.querySelector('.click_result');
     function removeX(){

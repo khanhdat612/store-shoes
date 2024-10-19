@@ -573,3 +573,15 @@
 .product_combo_1 .slick-slide .slick-current .slick-active {
   width: auto;
 }
+.container_product_right_position .slick-track {
+  opacity: 1 !important;
+  width: 616px !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.container_product_right_position img {
+  width: 100% !important;
+}
+.slick-list.draggable {
+  height: 590px;
+}

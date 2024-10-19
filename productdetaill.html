@@ -180,9 +180,10 @@
           </div>
           <div class="container_product_right">
             <div class="container_product_right_position">
-              <img class="container_product_right--img" src="./img/hình ảnh sản phẩm (3).png" alt="" />
-              <ion-icon class="container_product_right--icon" name="arrow-back-circle-outline"></ion-icon>
-              <ion-icon class="container_product_right--icon2" name="arrow-forward-circle-outline"></ion-icon>
+              <img  style="width:100%" class="container_product_right--img" src="./img/hình ảnh sản phẩm (3).png" alt="" />
+              <!-- <img  style="width:100%; left: 0px !important;" class="container_product_right--img" src="./img/Rectangle 124.png" alt="" /> -->
+              <!-- <ion-icon class="container_product_right--icon" name="arrow-back-circle-outline"></ion-icon>
+              <ion-icon class="container_product_right--icon2" name="arrow-forward-circle-outline"></ion-icon> -->
             </div>
             <!-- <div class="container_product_right">
                 <div class="container_product_right_position_2">
@@ -306,26 +307,25 @@
             </div>
           </div>  
           <div class="muahang">
-            <button style="width:100%; height:32px;background: #FF7A00;
+              <button style="width:100%; height:32px;background: #FF7A00;
                             border-radius: 3px; border:none; font-weight: 700;
                             font-size: 15px;"> 
-                            <a href="./cart.html" style=" color:#ffffff; text-decoration:none ;">MUA HÀNG</a> 
-                            <!-- MUA HÀNG -->
+                            <a href="./cart.html" style=" color:#ffffff; text-decoration:none; padding: 5px 150px;">MUA HÀNG</a> 
               </button>
           </div>
 
           <div class="products_support display_tablet_none" style="z-index: 4;">
             <a href="./vote.html">
-              <button class="products_support_btn-1">Ý KIẾN PHẢN HỒI</button>
+              <button class="products_support_btn-1" style="cursor: pointer;">Ý KIẾN PHẢN HỒI</button>
             </a>
             <a href="">
               <a href="./infoDetail.html">
-                <button class="products_support_btn-2">THÔNG TIN CHI TIẾT</button>
+                <button class="products_support_btn-2" style="cursor: pointer;">THÔNG TIN CHI TIẾT</button>
               </a>
             </a>
           </div>
 
-          <div class="product_combo">
+          <div class="product_combo" style="cursor: pointer;">
             <div class="product_combo_head">
               <h3>COMBO ĐẶC BIỆT</h3>
             </div>
@@ -1110,6 +1110,7 @@
     <script src="./js/product.js"></script>
     <script src="./js/inpQuantity.js"></script>
     <script src="./js/menuMobile.js"></script>
+    <!-- <script src="./js/clickProduct.js"></script> -->
     <script>
       document.querySelectorAll('.myAnchor').addEventListener("click", function(event){
         event.preventDefault()
